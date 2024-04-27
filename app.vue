@@ -1,11 +1,14 @@
 <template>
   <div>
     <h1>nuxt-simple</h1>
-    <div>Working starter for new <a href="https://nuxt.com/" title="Nuxt">Nuxt</a> project</div>
     <div>
-      See my <a href="https://github.com/AloisSeckar/demos-nuxt" title="demos-nuxt by AloisSeckar">demos-nuxt</a>
-      for more details and my Nuxt 3 tutorial and examples.
+      Working starter for new <a href="https://nuxt.com/">Nuxt</a> project
     </div>
-    <div>Start editing <strong>app.vue</strong> file to get started with your Nuxt application</div>
+    <div>
+      See my <a href="https://github.com/AloisSeckar/demos-nuxt">demos-nuxt</a> for more details and my Nuxt 3 tutorial and examples.
+    </div>
+    <div>
+      Start editing <strong>app.vue</strong> file to get started with your Nuxt application
+    </div>
   </div>
 </template>
