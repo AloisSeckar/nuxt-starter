@@ -1,9 +1,8 @@
+// Nuxt project configuration like modules or runtime variables goes here
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // Nuxt project configuration like modules or runtime variables goes here
-
+  // simple ESLint config
   modules: [
-    // simple ESLint config
     '@nuxt/eslint',
   ],
   eslint: {
@@ -11,5 +10,4 @@ export default defineNuxtConfig({
       stylistic: true,
     },
   },
-
 })
