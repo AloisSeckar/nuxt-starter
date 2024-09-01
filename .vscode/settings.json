@@ -1,4 +1,3 @@
-
 {
     // ESlint flat config
     "eslint.useFlatConfig": true,
