@@ -5,7 +5,8 @@
       Working starter for new <a href="https://nuxt.com/">Nuxt</a> project
     </div>
     <div>
-      See my <a href="https://github.com/AloisSeckar/demos-nuxt">demos-nuxt</a> for more details and my Nuxt 3 tutorial and examples.
+      See my <a href="https://github.com/AloisSeckar/demos-nuxt">demos-nuxt</a>
+      for more details and my Nuxt tutorial and examples.
     </div>
     <div>
       Start editing <strong>app.vue</strong> file to get started with your Nuxt application
