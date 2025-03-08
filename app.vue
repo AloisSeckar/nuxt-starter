@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>nuxt-simple</h1>
+    <h1>nuxt-starter</h1>
     <div>
-      Working starter for new <a href="https://nuxt.com/">Nuxt</a> project
+      Working starter template for a new <a href="https://nuxt.com/">Nuxt</a> <b>3.16</b> project
     </div>
     <div>
       See my <a href="https://github.com/AloisSeckar/demos-nuxt">demos-nuxt</a>

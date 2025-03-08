@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
   ],
 
-  compatibilityDate: '2025-02-01',
+  compatibilityDate: '2025-03-08',
 
   eslint: {
     config: {
