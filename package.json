@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "nuxt-starter",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "scripts": {
     "eslint": "eslint .",
     "dev": "nuxt dev",
@@ -9,9 +9,8 @@
     "start": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxt/eslint": "1.4.1",
-    "nuxt": "3.17.5",
+    "@nuxt/eslint": "1.5.2",
+    "nuxt": "3.17.7",
     "typescript": "5.8.3"
-  },
-  "packageManager": "pnpm@9.15.9"
+  }
 }
