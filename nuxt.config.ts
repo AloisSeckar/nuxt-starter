@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   ],
 
   // avoid unexpected changes in background modules
-  compatibilityDate: '2025-11-11',
+  compatibilityDate: '2025-12-01',
 
   // simple eslint config
   eslint: {
