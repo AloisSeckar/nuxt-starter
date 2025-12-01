@@ -9,8 +9,8 @@
     "start": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxt/eslint": "1.10.0",
-    "nuxt": "3.20.1",
+    "@nuxt/eslint": "1.11.0",
+    "nuxt": "4.2.1",
     "typescript": "5.9.3"
   }
 }
