@@ -10,12 +10,14 @@ I recommend this setup for learning and testing purposes or for simple projects 
 
 If you want to learn more about Nuxt, visit my [`demos-nuxt`](https://github.com/AloisSeckar/demos-nuxt) project with tutorials and examples.
 
+Using `pnpm` is advised.
+
 ## How to use
 
 1. `git clone https://github.com/AloisSeckar/nuxt-starter.git`
 2. `cd nuxt-starter`
-3. `npm install` or `pnpm install`
-4. `npm run dev` or `pnpm dev`
+3. `pnpm install`
+4. `pnpm dev`
 5. `http://localhost:3000/`
 
 Congratulations. You have working Nuxt v3 app project enhanced with ESLint and you can start building atop it.
