@@ -4,7 +4,7 @@
 This is a simple but full functional starter for [Nuxt framework v3](https://nuxt.com/docs/3.x/getting-started/introduction)
 
 ## About
-It basically contains the same as [Nuxt Starter on StackBlitz](https://stackblitz.com/github/nuxt/starter/tree/v3) featured by Nuxt team as the online playground, but without `<NuxtWelcome>` component and with additional [ESLint](https://eslint.org/) configuration for static JS code analysis, which I found very useful and worth adopting from your very first steps.
+It basically contains the same as [Nuxt Starter on StackBlitz](https://stackblitz.com/github/nuxt/starter/tree/v3) featured by Nuxt team as the online playground, but without `<NuxtWelcome>` component and with additional [ESLint](https://eslint.org/) configuration for static JS code analysis, which I found very useful and worth adopting from your very first steps. You can also quickly test types using [vue-tsc](https://github.com/vuejs/language-tools).
 
 I recommend this setup for learning and testing purposes or for simple projects only. As a starting point for a real application, I'd advise you consider picking my [`nuxt-ignis`](https://github.com/AloisSeckar/nuxt-ignis) project which provides more useful features and integrations.
 
@@ -20,4 +20,4 @@ Using `pnpm` is advised.
 4. `pnpm dev`
 5. `http://localhost:3000/`
 
-Congratulations. You have working Nuxt v3 app project enhanced with ESLint and you can start building atop it.
+Congratulations. You have working Nuxt v3 app project enhanced with ESLint and TypeScript support and you can start building atop it.
