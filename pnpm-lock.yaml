@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       nuxt:
-        specifier: 3.21.10
-        version: 3.21.10(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.28.1)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0)
+        specifier: 3.21.11
+        version: 3.21.11(@oxc-project/types@0.143.0)(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.27.7)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0)
       vue:
         specifier: 3.5.40
         version: 3.5.40(typescript@6.0.3)
@@ -186,8 +186,8 @@ packages:
   '@colordx/core@5.5.0':
     resolution: {integrity: sha512-3PxTH8itZzltK0U9jTwVVnjLXvnDYuq3m+QXsHkENxWiPRh4WaoLcs1SQjqgZ55kS+QyirpH5BVwzP2gMVG6EQ==}
 
-  '@dxup/nuxt@0.5.3':
-    resolution: {integrity: sha512-PRwX3kEDjZF4t+j+lWbhFSZ1WBklwFSus5byNtkCL2PgWoUMbywNtewJcUHVSOQdwEYsbD1H/md3e/CKaTvDyw==}
+  '@dxup/nuxt@0.5.6':
+    resolution: {integrity: sha512-uZjAFoocWtWHr7YP9jm6FqwI8kjX2QN9bjcncoZt0GS+zExIAP3Ewv6EqEUvVP7w9pjZE+T19QxLHeoacN/MNg==}
 
   '@dxup/unimport@0.1.2':
     resolution: {integrity: sha512-/B8YJGPzaYq1NbsQmwgP8EZqg40NpTw4ZB3suuI0TplbxKHeK94jeaawLmVhCv+YwUnOpiWEz9U6SeThku/8JQ==}
@@ -195,20 +195,11 @@ packages:
   '@emnapi/core@1.10.0':
     resolution: {integrity: sha512-yq6OkJ4p82CAfPl0u9mQebQHKPJkY7WrIuk205cTYnYe+k2Z8YBh11FrbRG/H6ihirqcacOgl2BIO8oyMQLeXw==}
 
-  '@emnapi/core@1.11.2':
-    resolution: {integrity: sha512-TC8MkTuZUtcTSiFeuC0ksCh9QIJ5+F21MvZ4Wn4ORfYaFJ/0dsiudv5tVkejgwZlwQ39jL9WWDe2lz8x0WglOA==}
-
   '@emnapi/runtime@1.10.0':
     resolution: {integrity: sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA==}
 
-  '@emnapi/runtime@1.11.2':
-    resolution: {integrity: sha512-kyOl3X0DuTiT1h2ft8r2fYO8JYtU9a9Xis/zBSiGArNaagCOWx90N1k2wxp18czFDH+OgcWGb5ZP/XMt3dcyPA==}
-
   '@emnapi/wasi-threads@1.2.1':
     resolution: {integrity: sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==}
-
-  '@emnapi/wasi-threads@1.2.2':
-    resolution: {integrity: sha512-c95qOXkHdydNKhscBTebqEC1CVAZpyqOfVfBzQ1qgzyl3gfeldUjIggDbIZgDKsHLgnsM+igH7TJ/eAasaVuMA==}
 
   '@es-joy/jsdoccomment@0.86.0':
     resolution: {integrity: sha512-ukZmRQ81WiTpDWO6D/cTBM7XbrNtutHKvAVnZN/8pldAwLoJArGOvkNyxPTBGsPjsoaQBJxlH+tE2TNA/92Qgw==}
@@ -680,17 +671,17 @@ packages:
     peerDependencies:
       vite: '>=6.0'
 
-  '@nuxt/devtools-kit@3.4.0':
-    resolution: {integrity: sha512-gkLbWT6xJ3QztuVuhDVZRWgZOhcbyhmyxEv92THTlgrmijJRWiRghw7a0fubPVwy5TZfinQaRH3hb1QDGTei1g==}
+  '@nuxt/devtools-kit@3.4.1':
+    resolution: {integrity: sha512-6ltPm2yUW8GvDdf3VJna7+flLi+ej7xRfSr+S4ovevKt/CuPf9EqYOn1jW7Kw/U1MXt/71zkn+/O2vu3G6O9Hg==}
     peerDependencies:
       vite: '>=6.0'
 
-  '@nuxt/devtools-wizard@3.4.0':
-    resolution: {integrity: sha512-BIaNM0Aig9j6lafF75+dHZ9sCdEbLv4ncwpVsVOF6N6z1ALvCesCCaTnhON+6MIf2hYDcSiC/zL/VhGjFkWV4A==}
+  '@nuxt/devtools-wizard@3.4.1':
+    resolution: {integrity: sha512-taGeuTnkHsZVjgD9r6NXvvHaBzB2j4mCgOmlmkz3ntsqgh1SJfmsD11Tmtl7FVAxJS8Wuvuzgt0GyTlADBW9Wg==}
     hasBin: true
 
-  '@nuxt/devtools@3.4.0':
-    resolution: {integrity: sha512-hOOpXnNyGf03ac0TIqZQK5ErlX2zTB6nPcf6SxLBG9IW/oCECM5JQEgI4EyqDLE2VjkXaalOUdl0BwtL2XuEMw==}
+  '@nuxt/devtools@3.4.1':
+    resolution: {integrity: sha512-20zZs6k/zAdi+PM7s1BwxE3hanZ+R1OGi5DWCKPyzSnhUUeeNebvWNgec7Rwnx6iKLkJfK4WFIZ+FL2QurG/ZQ==}
     hasBin: true
     peerDependencies:
       '@vitejs/devtools': '*'
@@ -725,22 +716,26 @@ packages:
       vite-plugin-eslint2:
         optional: true
 
-  '@nuxt/kit@3.21.10':
-    resolution: {integrity: sha512-zs1+BZlRK1VlHo37TTzaMXQ+SemS1WeGRtcjWbW1ZoXpL3/ctn2VQu6nFpu6JqsJRd0QAPNS4GYmxGwLK8EHNw==}
+  '@nuxt/kit@3.21.11':
+    resolution: {integrity: sha512-0Xi3tgwN77w43Q8GCPIrvWmF1J7Peehkts44E0uKNIml9lB8WoUn8YxyUjxBv47XtVR86NWoWALAT+/IEMHJEA==}
     engines: {node: '>=18.12.0'}
 
   '@nuxt/kit@4.4.8':
     resolution: {integrity: sha512-ZUlZ5iYfyfJFDPluhn6ZxFWcsuxWbLnZBc8w3MAROcQ4lYfZ+qFpALBLSNlpc0zhOa++33EE+5PEbOAdVIY+dw==}
     engines: {node: '>=18.12.0'}
 
-  '@nuxt/nitro-server@3.21.10':
-    resolution: {integrity: sha512-24hq6O1zv+ysuK2rufqib60tHUXM7zDn99bFM5o9FfWlQi+0NaT16YKd3mImhL9cvHBgAj2wvxMPz9+TJ+kxhA==}
+  '@nuxt/kit@4.5.2':
+    resolution: {integrity: sha512-l66LU9DcJYjmNwqwAj2I5UGRrUbnG2DOKGChnN70zIGtn0eq/z87gi/FRgha6eMb9/FmB1PFHgtx6PWVml1C2Q==}
+    engines: {node: '>=18.12.0'}
+
+  '@nuxt/nitro-server@3.21.11':
+    resolution: {integrity: sha512-QIIFH+0xtDBjOdXeTcC23dr+CS98vQv3/wcPtM72BHUUFYH+GWf7TiFCp6xG0wUN6MhGg3KTDjE6yV9U9g6H6Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      nuxt: ^3.21.10
+      nuxt: ^3.21.11
 
-  '@nuxt/schema@3.21.10':
-    resolution: {integrity: sha512-i356YiRQ+xmGz1K1GS8IKQsFE/mRE6vuNoHvhdkk3jSXW+ncV9jp5ap/GX7t3xOr3XqxPUiNpMV9PpzoMMbJBA==}
+  '@nuxt/schema@3.21.11':
+    resolution: {integrity: sha512-5Couz53Pl/SgTwtMQ9jlxVIC6wZk9aAbWyeOD7D6D1UIP5DzV/yV5lPDY/kM0nmiqPSzJf9WLTdJgB2gNm0dOA==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   '@nuxt/telemetry@2.8.0':
@@ -750,11 +745,11 @@ packages:
     peerDependencies:
       '@nuxt/kit': '>=3.0.0'
 
-  '@nuxt/vite-builder@3.21.10':
-    resolution: {integrity: sha512-360y1an7pFM4QgfspCXpJCmVrZXdxru6cUSyBKOI3B82xG6zfHMNf2eKu8NtZbVQ2c9LK144aCj5dOO19yNpcQ==}
+  '@nuxt/vite-builder@3.21.11':
+    resolution: {integrity: sha512-4w3g5IFzXhVdX0ZIgmd/zKE2xPZ/e2ms4On1z0OWTDIzvIbrWeednYAJA0bgmgwCBsInYppdih8ZN0w+yWIQmw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      nuxt: 3.21.10
+      nuxt: 3.21.11
       rolldown: ^1.0.0-beta.38
       rollup-plugin-visualizer: ^6.0.0 || ^7.0.1
       vue: ^3.3.4
@@ -764,386 +759,371 @@ packages:
       rollup-plugin-visualizer:
         optional: true
 
-  '@oxc-minify/binding-android-arm-eabi@0.141.0':
-    resolution: {integrity: sha512-tt3ekadMhd/Q+9/mU1RaZWCUAJhOQgHsUD9tn0btFhEkZyeTg1rKt2+wzv+wjBE3QXlxVdV6sYMLKnbt8XdR+g==}
+  '@oxc-minify/binding-android-arm-eabi@0.143.0':
+    resolution: {integrity: sha512-/UEp7vlZSeB5kkcspO93fec1NnPfdkF0JmKUSKm6ZLBhkh+Ua6hHmGU5tBJYF3LeuDDVpe+RIjBlmSu4d0kmKg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [android]
 
-  '@oxc-minify/binding-android-arm64@0.141.0':
-    resolution: {integrity: sha512-i7OGI2bFipaSlgwap/qiXcCmPbZMhlYdKAQvUtNziX8CJamNzhlqMNw4jz7wYdVNfcKuQ1eoyi7XMYCbNnKRtg==}
+  '@oxc-minify/binding-android-arm64@0.143.0':
+    resolution: {integrity: sha512-ZdqRE7yvqP1snCTlCuJ2u9KUSTIj4k1NobK44VRSboAQb6+9j3rxkJ5wPFuIYRYa12lBijFSijSYAFbYapkibw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [android]
 
-  '@oxc-minify/binding-darwin-arm64@0.141.0':
-    resolution: {integrity: sha512-YOp5tcQRkLUbvII+EVwDss+Ww16b/V8XfrqNRDOTaLb/azGTb87iyS5drXfRosONv7Jp8/t8qRFC9K0aj1yYZA==}
+  '@oxc-minify/binding-darwin-arm64@0.143.0':
+    resolution: {integrity: sha512-KGt9pdVmgmSoec2ViIIPaBS4E0LLXP9fuk+ALDgeVvbOo3IffJPBgL8PWGC5jDXvBOAET1p6Ps9B4VcOQnu1sg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [darwin]
 
-  '@oxc-minify/binding-darwin-x64@0.141.0':
-    resolution: {integrity: sha512-9Z25dRX02krxcFXTIoZ3ym0+CF3gZ6RiU+bbckFT4l+d5LcQePfM1tR12zEW+GDTl0atCNG2TuEu61tT4L2LIQ==}
+  '@oxc-minify/binding-darwin-x64@0.143.0':
+    resolution: {integrity: sha512-gb7Nc1la98YxpY3uEiCeXsI/D9YzOAkh3nIpyfPRpZGERLUQ/OpLFqXBTQ+/VD/gSHS+BVQPPLukQcZDnRxX8A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [darwin]
 
-  '@oxc-minify/binding-freebsd-x64@0.141.0':
-    resolution: {integrity: sha512-QtFX48viQb3Di8GkxhH9SPYZaafIwyEa51iFBALXz2x1WdYvZeAxgl33GjETq5/YXS7MiPYrZ7FNs3UHtPsTdg==}
+  '@oxc-minify/binding-freebsd-x64@0.143.0':
+    resolution: {integrity: sha512-XBcPdh9Z7eusL49InRDjZQb5M/c9Uc95LVjbj4X9Vn/8K+HP3bI/RhAl+870kxRqRFcSZru/a4VRxWM/q+eYjw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [freebsd]
 
-  '@oxc-minify/binding-linux-arm-gnueabihf@0.141.0':
-    resolution: {integrity: sha512-HcgqdmJY+0qWnolOTxrvzilDTvs3q7RF2XcvO0q0iDld8SZBNARVqrWY9k5WwCMTZSJKCWfL/QqpUMBnyIHQAA==}
+  '@oxc-minify/binding-linux-arm-gnueabihf@0.143.0':
+    resolution: {integrity: sha512-w9qTGLd+tGkf8sM9QWbzut+BxS5WLEph/annIxbZwoiDzob/6UCHY3j1AOMx9cp34iHv4jdoE5ZpcjkJM7vm6Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-minify/binding-linux-arm-musleabihf@0.141.0':
-    resolution: {integrity: sha512-u8c4OPT8A6lx+mnFkMczIHCQQNqbqdEGwep2PlOoCgQhwsWR3auvs4cyD1JJW6huZQjeq0gJJ0dJtvJq3yLy+w==}
+  '@oxc-minify/binding-linux-arm-musleabihf@0.143.0':
+    resolution: {integrity: sha512-oqzjfB+JWnP8+A97R9MXZSRokQNrkMadxRdZ6NFIFPshjbqyrCZy0VQAHkdVPUulMYGziKXI3D18fxYTomPNjw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-minify/binding-linux-arm64-gnu@0.141.0':
-    resolution: {integrity: sha512-n+ljU1cOCpIqVDxYiYmNimXGKNYlPIkdWVrkC4hOQF3B7YqkSRtEWbHcvedinBqNCwUF+azynDWor5Bq3/BdDw==}
+  '@oxc-minify/binding-linux-arm64-gnu@0.143.0':
+    resolution: {integrity: sha512-kzUFsaL8ZMmwgMSY5PYvwOTBsQuSOp/FrWjmV3cecu54+f0RbF2mrDXVxOirRpF+mc4HzU8ndkatmgFlpIEo6A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-minify/binding-linux-arm64-musl@0.141.0':
-    resolution: {integrity: sha512-Xkb5QCOywz/YbL+8LVQSzOxuz2jhRweBjr4BnQO7CQXAtQLLCNoll7v2qLg9OCzdqdhFw9uNgZ6aTBVADBhiPg==}
+  '@oxc-minify/binding-linux-arm64-musl@0.143.0':
+    resolution: {integrity: sha512-Si6teAvC97dUa2Dat0Aj15bqEKb8+bomAqLrmMZgJ5z6zZTFdDspmCM0dy7XlPVIV/gmM8b9R7353om6M868ag==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-minify/binding-linux-ppc64-gnu@0.141.0':
-    resolution: {integrity: sha512-IbVb+m0iL053WitFNnQbtmd8OjYGr4Xn5NTuAiYz8tJBtn82okEZFi0OgaeaHQE4aPZGOKPcSVlt1OMPtMoPCw==}
+  '@oxc-minify/binding-linux-ppc64-gnu@0.143.0':
+    resolution: {integrity: sha512-1YHgZgUHn6kL5q72ohDD7/BwmNTqy71ckz4X++yQ0gLA5iyFCZux+WYO5KOcR/gsh1nRgH7k/XhRlNpvvT43cA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ppc64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-minify/binding-linux-riscv64-gnu@0.141.0':
-    resolution: {integrity: sha512-Sc/GAiyelxg8oXlBgmJI6OuKKHmg4rF0RvTLC8eL5V3qKDXrMdVWiJziwVBqN5oiFEog35ZM1/YNF63IZOdZjw==}
+  '@oxc-minify/binding-linux-riscv64-gnu@0.143.0':
+    resolution: {integrity: sha512-XDVP9LLHxfMB2HiXFKF9gT3Zq648dugq98IUgmBCmRKvryxgXMVlzt+nxHL0v/3r4xtPYcbSTCOhMvVtApUtqQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-minify/binding-linux-riscv64-musl@0.141.0':
-    resolution: {integrity: sha512-KHYS3oQJ5r1QBVAVubUy6UPRWYghqkjCOfNlGeH/sWlmfeM2OD74+Stc8eHmVm7QI2wDooOIlZfUso0Yz0jyRg==}
+  '@oxc-minify/binding-linux-riscv64-musl@0.143.0':
+    resolution: {integrity: sha512-m6s3L8zbQWpOHtJ9n+8FQ1dBQ+eQz6l3hK2hDKvPRaYM1+nFjHWrVj6EIwXidBtk4OT1gGvw+ojPWi6X2xZ9SQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-minify/binding-linux-s390x-gnu@0.141.0':
-    resolution: {integrity: sha512-WyacIrs13ewOnGngxNmPF00xn0+aOYHTMSSMljNN3VShSbqB0A7ZEikR7q9fmmnBTf/jloQUO6bjzK85BFfl0w==}
+  '@oxc-minify/binding-linux-s390x-gnu@0.143.0':
+    resolution: {integrity: sha512-5ILtPXU0zhjRoaQ86JbtkJwrIsJ70EEV4rYbYmtB6BJDxKDAb8P/tjwYcnBgVTrxrqn/3Mms2wGa2T9yXY6FRg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [s390x]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-minify/binding-linux-x64-gnu@0.141.0':
-    resolution: {integrity: sha512-mP69bh2L/VVq10UEQ3wb0EsO0472TzOIZUfS/ADmxnr4gSxAzhRbO8w5QryL3BNyyyjSaXIlrAnAKO6G3srGwg==}
+  '@oxc-minify/binding-linux-x64-gnu@0.143.0':
+    resolution: {integrity: sha512-JzSNJd8/sO0m+VEhgNfA1ZPxogwhDGrQ5ajNqP1Rdo1N7o4CLBH8wLMpBiHk7a/7Y3V0QHQZScCx6SnwoZ3Qsg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-minify/binding-linux-x64-musl@0.141.0':
-    resolution: {integrity: sha512-B4w1uz+GPVD5iRNn9StLSG0ug5DNAy5YQVswjPy5fXNNO6JyADvmu4KZyE6tWCA6Kbz/84icD6RJ1TKVis2HSg==}
+  '@oxc-minify/binding-linux-x64-musl@0.143.0':
+    resolution: {integrity: sha512-yvA7b2vJP29Kf/lbA+wgJjwgiRxHxK+vR/NVmqK39H40K1dWeugiIRLl3u7P5Q5xVsBaEfg36uokrZiyNY4IAw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-minify/binding-openharmony-arm64@0.141.0':
-    resolution: {integrity: sha512-p3nU1bo2t+QRvvqOPUqI8aEk8puhYdMq5cnjulovfKykWRi8cMcJJvuLp+RPkf45lUcTQdNG/YMFqR5eYGZfwA==}
+  '@oxc-minify/binding-openharmony-arm64@0.143.0':
+    resolution: {integrity: sha512-0bIPZFCoc5IJvenc3cTP6GRqn6PoIZeQwYlVvdbpun0IlE/Rwx9WTo622T2jcc4+j+u9Vk/oz6wHgisVzDtB5Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [openharmony]
 
-  '@oxc-minify/binding-wasm32-wasi@0.141.0':
-    resolution: {integrity: sha512-Qb72fqFRs2Xu+KvAwisc1Fxn/rd/KROnFIdkFv77dTVmrKsq2HOCjWvxlPzjHcxNIgGUUJtpmNolrs7GYcopKg==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    cpu: [wasm32]
-
-  '@oxc-minify/binding-win32-arm64-msvc@0.141.0':
-    resolution: {integrity: sha512-C+lcoyJycCgq4MIgGe2K/xYZHKjaSfRMa+Bm88UoPK7U/mFHYoAnICbftkLh3IVnIuQAr9vGItp0w/m39VajgQ==}
+  '@oxc-minify/binding-win32-arm64-msvc@0.143.0':
+    resolution: {integrity: sha512-sO3l3B5iWt1QS3owmR+HfJr6PZ3djl7Qu8EsdLao7Ampz1j2RqGpaLSdcLm5OUtFxXEpjQURG6K4yjg6idOXeA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
 
-  '@oxc-minify/binding-win32-ia32-msvc@0.141.0':
-    resolution: {integrity: sha512-MAtLZpArekuD94sTmQYz7YAn3xDrq4wqT/71CUrv8ij2TSbYZGqDtA44ujP3977180ITcffPQYfHKXYX7arsgg==}
+  '@oxc-minify/binding-win32-ia32-msvc@0.143.0':
+    resolution: {integrity: sha512-ZyqIYHCB2R0gSr8FqQVUeJNY5yyGoVWyewi9Mx7A222L4392KCzAYLZj9Hh6eAMO2fu9gX52vguA/gCWo2et4Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ia32]
     os: [win32]
 
-  '@oxc-minify/binding-win32-x64-msvc@0.141.0':
-    resolution: {integrity: sha512-9B0SzKsstTUETz2SblLd2gZJ2H36GyBmZmwcZVwEaFOYW+luVm78yCSjZwja/xyl+PV6JsLhxQv+rgH46rpxQw==}
+  '@oxc-minify/binding-win32-x64-msvc@0.143.0':
+    resolution: {integrity: sha512-akQwyMeeaOPBZRklc+KsGfvuAcfjUKctnivNLxW4ubG1SgwRoljR5QliS313lVhixdXiBsIF9eIGCU68RIBfOQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
 
-  '@oxc-parser/binding-android-arm-eabi@0.140.0':
-    resolution: {integrity: sha512-ZfjDZ422mo7eo3b3VltqNsV9kmv1qt/sPEAMSl64iOSwhVfd0eIZ9LB79Mbs1xYXJnk7WSROwzBCKDIiVxPTvQ==}
+  '@oxc-parser/binding-android-arm-eabi@0.143.0':
+    resolution: {integrity: sha512-n9uozULWflPqBtdmI8lAabLqGKNgLVNN0ZH8HfgCwpKGNtzRzauB76jTiW/3YLkcA7N1zskpi9GdVnZuu1SAvg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [android]
 
-  '@oxc-parser/binding-android-arm64@0.140.0':
-    resolution: {integrity: sha512-Ia8jSvikUX6Sf+Ht+KOCUF/k1HpR0VlmqIYymubmWDebOEGtsyliHDR6JxsZ4IX3/c/GbrB1uh09aVGQv/LQmQ==}
+  '@oxc-parser/binding-android-arm64@0.143.0':
+    resolution: {integrity: sha512-9BbdjHETk6O3zH/DDid9IgBtF0GlpLabNKN231uraXpRDSfY+iiZxTP5bk1Z63GBownVdhdINFIeddmMz4MzpQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [android]
 
-  '@oxc-parser/binding-darwin-arm64@0.140.0':
-    resolution: {integrity: sha512-G6VK0nK61pH0d0mBjUqSZbVxGqqO5uzeginLDQj+gOO6ObfJjXRwgkD/ol0w1INcnFeAb6YGGO7qc3ueGHaycQ==}
+  '@oxc-parser/binding-darwin-arm64@0.143.0':
+    resolution: {integrity: sha512-gh+6ecoHUy4/sUcolBl/1qPXKBbYNxFY0Pk0ujgQvINTMSftJY7o4yb8gOkDJPeZeB8+a+u7xTe6umoP8N5HFA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [darwin]
 
-  '@oxc-parser/binding-darwin-x64@0.140.0':
-    resolution: {integrity: sha512-HazBOuZzd2pO1C2uMmp8Gv7mhzMHqKSKDS1OZfcLEvpIcgA+48J92HEtNanVHDIzRD9PRPCV6aS6fkZIWOVl8Q==}
+  '@oxc-parser/binding-darwin-x64@0.143.0':
+    resolution: {integrity: sha512-qd1hl2d+lXgHv/VQ/M9qm8TrMC5T4RqDBwtOnl+1D0QMjwcz+8AaB4JSg8STgeag0GP6a6L74XEGAsrTSJWNzQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [darwin]
 
-  '@oxc-parser/binding-freebsd-x64@0.140.0':
-    resolution: {integrity: sha512-9hSUU+HmTUyOe4JzMHxNGgLWNY7rrO+6ShicZwImNJacEAACDMIkuEQQkvXSL+WJN50jaNtLYJv8s4OcBdpyUQ==}
+  '@oxc-parser/binding-freebsd-x64@0.143.0':
+    resolution: {integrity: sha512-M5XXcNa7aOqLPKTR41msfghKu2yQ4xWvCm11/gwU0JzOzHNk5sgW//rVEjJ+LO48+VDAMzXTSzurUVxIDKwozw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [freebsd]
 
-  '@oxc-parser/binding-linux-arm-gnueabihf@0.140.0':
-    resolution: {integrity: sha512-RAEuQsYtS0KcDFqN0ABTjyyNlokS91JeuDuoW9tEbG0JTbRNXnpQUdbYc/16JoA6Z/2ALbNrE3KmxtqDiuIjCQ==}
+  '@oxc-parser/binding-linux-arm-gnueabihf@0.143.0':
+    resolution: {integrity: sha512-T/GXusuOkPNQhCQCSBbcU/N8j0rAypuDBl1IyFK+lyYT594XsVz80clPC/OtbSSpBGyJxj8uYEfctxVuxVYoww==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-parser/binding-linux-arm-musleabihf@0.140.0':
-    resolution: {integrity: sha512-c4CkHvPvqfojouredJ0w3e6+jiBq0SbFyhH61kr/zPb/7XsaYTNKQ54vmlSsopfdQbNDX40ZeK9Abs2Qet6wcw==}
+  '@oxc-parser/binding-linux-arm-musleabihf@0.143.0':
+    resolution: {integrity: sha512-oKu4RcBlXSqo3OC62dp6YTnQaZIurNDpCX3BnAM3+bJxt7s8J2TJKMnC0UYer1qhlRaDCg6wkTaTw+2IlsZ12w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-parser/binding-linux-arm64-gnu@0.140.0':
-    resolution: {integrity: sha512-yrjmLj8ixPB25yqvPGr28meGjb+keed7m1GqqY/0uqkhZIoT4t9zmfwUgFEtC33C7dtE+UQ7TU0IaVxf97SWJg==}
+  '@oxc-parser/binding-linux-arm64-gnu@0.143.0':
+    resolution: {integrity: sha512-WJBbD186AZmMGaSIhlktC+rPl8L3peCTXAh88Ih9uEvK0en2mPojGyCGYiL6mHtV1RPV3JyfJW5t6n5hh0lXhA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-parser/binding-linux-arm64-musl@0.140.0':
-    resolution: {integrity: sha512-ggGMQTN8Agwxp2WiLMpdY671dt0qTDJWiWlJeig3HnUwTnerRl0J2JdGVghWBeDcss2D9S2V2Js6dZHEiVabVA==}
+  '@oxc-parser/binding-linux-arm64-musl@0.143.0':
+    resolution: {integrity: sha512-t1AcYOwEzgceadT4v5e+vaCCb0AncCA3v5AyzfBAz/tMq11qzVccXKzNHtkWdjBsgvTKwRkaUF3QvT4kot8vcQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-parser/binding-linux-ppc64-gnu@0.140.0':
-    resolution: {integrity: sha512-IgTs8xYAFgAUGNmR65tIqjlJ8vKgrfXzC515e9goSdfMyKQV4aJpd2pUUudU4u51G64H0/DSEJEXKOraxm9ZCA==}
+  '@oxc-parser/binding-linux-ppc64-gnu@0.143.0':
+    resolution: {integrity: sha512-RsnO/NoD8376LMJq8JS8TwI0ieNaFRTuNe2GVJntQg6gwZNMENZsEbknHdVwjpOmxdGLGodcwaGSbAeRr5Bgjw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ppc64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-parser/binding-linux-riscv64-gnu@0.140.0':
-    resolution: {integrity: sha512-A1x+PMWZmSGaFVOx2YeNTFau8uD+QO14/vLP4GrcuvUPs3+nBkUOjy9Lus86ftHsDojjYMbvBelmKc3F7Rv08g==}
+  '@oxc-parser/binding-linux-riscv64-gnu@0.143.0':
+    resolution: {integrity: sha512-48fSVfR9TZi5CASZFyv0VC6z6BCoeihFsX031mAD/oSH7d9PYsPgIqza7d9mjP7Z2KTEpTFyH6SIu0Ui6R1vdg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-parser/binding-linux-riscv64-musl@0.140.0':
-    resolution: {integrity: sha512-zBqpfRo2myWPrPo5xUjeZqlnPXPXsX8BcWtWff66/eGRQdbPjhzPgXa/F+AtxT2afUViPxbuDlwscMKzQ5tg+g==}
+  '@oxc-parser/binding-linux-riscv64-musl@0.143.0':
+    resolution: {integrity: sha512-T8CpdD+SfE01DnIOD4HpVxu0ZJOfMJ/VhCvikKfaXAxkZ+9veyLM/D2hpi7Y2hFUyPmVQO3FNZHmYzV/WlVR4g==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-parser/binding-linux-s390x-gnu@0.140.0':
-    resolution: {integrity: sha512-2M1DPm/8w9I//YzFlFC9qXw+r2tJFh5CYwRlYTq2vUJQS7qoQftEDeCZ8EnN7KHtvSiXvYj8mZI5pR7DpXmcEw==}
+  '@oxc-parser/binding-linux-s390x-gnu@0.143.0':
+    resolution: {integrity: sha512-QLdeMsCcacenPEFsfxnBUDF1y6opyz5+fmOz9bfD5Y7fiGCMupUCuB3KTPQhNwshIG1P9fPqar9MHxuBDd4bwQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [s390x]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-parser/binding-linux-x64-gnu@0.140.0':
-    resolution: {integrity: sha512-8aRDbZ/U/jO8N7go1MO72jtbpb4uswV8d7vOkMvt/BPgZiyEYvl1VIWK4ESxZZhnJ4tqwVldgX7dNiP/eB1Jdg==}
+  '@oxc-parser/binding-linux-x64-gnu@0.143.0':
+    resolution: {integrity: sha512-659ujfqLy6k7cuH3sbzhd8b+ztSq+i6E2E9pG78Q0BmHjAExfGIdgc8cGgMdwAozDXeZFHkJ+LXYJdWsaGdgyw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-parser/binding-linux-x64-musl@0.140.0':
-    resolution: {integrity: sha512-xRqpeI8U2sQQS1W5BMWRyMTxtagkuLG2dEWruet5lFsWHTvBth11/TpSaJatHdqVVwHN0q3uuoS9zRsGinq8hg==}
+  '@oxc-parser/binding-linux-x64-musl@0.143.0':
+    resolution: {integrity: sha512-/Mw/9j4TfZcnKphPrzOE6t4MMknXadcAAuVUlDRTF/ETWB5xOgQvOJV2Mh9We/bWxZdoxaGAdc+hy4GuYwQ2yQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-parser/binding-openharmony-arm64@0.140.0':
-    resolution: {integrity: sha512-GbGRe26MqAKciFRvXeHNQJ6VAHYs9R4miP89sEAncysM3n+f4lnyLWgsa9kklJNpfnxdq2yRoNYHFqwBckVimw==}
+  '@oxc-parser/binding-openharmony-arm64@0.143.0':
+    resolution: {integrity: sha512-8rIKWR2BFuifbIK/1XB9wTaSdtuJ25dlE7ZQYDnEwj/2xH2vHsxnvIjHT3ZjSVuLLwGGlSslIG/fbOJ8TV8rTw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [openharmony]
 
-  '@oxc-parser/binding-wasm32-wasi@0.140.0':
-    resolution: {integrity: sha512-vFiC1hqys+hkX1GnQkIoiTQJNiUm43Z0lO35ETKXTw0YtpW7+cN58YRRXFAQQ+TgpkIi3lrhcxdlnqz+Oi3ptQ==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    cpu: [wasm32]
-
-  '@oxc-parser/binding-win32-arm64-msvc@0.140.0':
-    resolution: {integrity: sha512-fGSQldwEYKhM+H8uLt76Op8hh5+FYaR6lvvQ1Txw3Mhn86DyQXLcI0fi1EkFlTK7F+46OCk/j0AJMzZQm6g5Xg==}
+  '@oxc-parser/binding-win32-arm64-msvc@0.143.0':
+    resolution: {integrity: sha512-5U9kQYMfRRI6Zq7KDxgbIP0RMnKrfn3gLepRMgJuRkPSUALTiRCk9d/uyhb4lGDjUdzwK7mBkKqhLgzBPCmLpQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
 
-  '@oxc-parser/binding-win32-ia32-msvc@0.140.0':
-    resolution: {integrity: sha512-sDS2Bai+g3ZWYwfZqmosiSuFDBcVnZ3Ta6pszzsiJoLMqsJEWKcxXXbGa7b7yXr++W2lQNPb3ZRJ8czseqL7RA==}
+  '@oxc-parser/binding-win32-ia32-msvc@0.143.0':
+    resolution: {integrity: sha512-25P7AaHk4R88Yv2XH4gToDVmh0cOu+bEURQU10CRrmvgabfRArSGAP5osmwUKeSUHj0VS50upbpbRWWW/m7mHA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ia32]
     os: [win32]
 
-  '@oxc-parser/binding-win32-x64-msvc@0.140.0':
-    resolution: {integrity: sha512-kHbE1zWyb5OQgJA6/5P4WjiuB01sYdQwtZnSSyE58FQEXDAMnyeeq4vj7KgN75i5SlBzOs8A5MrtlD3gOlDKqQ==}
+  '@oxc-parser/binding-win32-x64-msvc@0.143.0':
+    resolution: {integrity: sha512-ORMh3JE1s6V7ySicdRK7vgaDQnn5o+UHg9ct989PlWHbel8O9ARrmWXM6kZjrBMtNucxNayQ8g69G0VfWzhANw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
 
-  '@oxc-project/types@0.140.0':
-    resolution: {integrity: sha512-h5LUOzGArYemnW1NMz/DuuQhBi96J6JL2Bk8zE4kvqxB5Sg3jxmCiH4uyOWHDkiKSt5vWlG4FIwCR/DbstcNRQ==}
+  '@oxc-project/types@0.143.0':
+    resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@oxc-transform/binding-android-arm-eabi@0.141.0':
-    resolution: {integrity: sha512-FOdseb5KpV3JtkM+7TN4u3sW3aQkUSRy0bWWiKgT/qrIGqZHqzKEUpwaMybutsfwEglWBXuJgnrT9loWisPkrw==}
+  '@oxc-transform/binding-android-arm-eabi@0.143.0':
+    resolution: {integrity: sha512-Rufrk7btlzkIAofJyrm3COzSrn4iNYOnHNYOahBDQly/PgleJv6QIVCHsPTqC6qfX/EJNoAeNshALvVfKSTY5A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [android]
 
-  '@oxc-transform/binding-android-arm64@0.141.0':
-    resolution: {integrity: sha512-jglqGwEnSuldt1nfFSpDBHQZ/RzjCjWQEMDatPOEOWIA0ZCCYFj/9ILUOTVllZz79FI9/c0p/bctVVlQqQxxYg==}
+  '@oxc-transform/binding-android-arm64@0.143.0':
+    resolution: {integrity: sha512-EwdR7ynio7zcg3CCaArr/FllpJX8fxmCCQlDdo6o4rZuCSXuIE04hRgcOgRRd5r5AKu81s/XP0TBulXWXaWpmQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [android]
 
-  '@oxc-transform/binding-darwin-arm64@0.141.0':
-    resolution: {integrity: sha512-81jBeodJH0IRJ3/OnAgW2lBPm/kcoz603d8eGnnwgW2HbxAUs8rfw+YWaKLrWaKjT0oSIPOrGMJu9DeaKD68sQ==}
+  '@oxc-transform/binding-darwin-arm64@0.143.0':
+    resolution: {integrity: sha512-+o1gLw5mefaKDFfhpIyxKEyeE9kAopy8uA/JCUG0D3stDeY35b3vjeWHgTTBwkOgLXWblq8OvZee1yEJ9Xd40Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [darwin]
 
-  '@oxc-transform/binding-darwin-x64@0.141.0':
-    resolution: {integrity: sha512-o2jD9E7CyPxhb3CuYbaYsnFH0Mo1hKa2R+Hfo6xJxOlyfcM8U4R73W3YXb9w6lRPUc0PBFUbCmJjtGR/k5SIYA==}
+  '@oxc-transform/binding-darwin-x64@0.143.0':
+    resolution: {integrity: sha512-lKEnKHSspm8c+aR+lspmP6m8g09f5VivzMCRpLTrMJLgaWmipUCflBsS8qTKcmRp/hYZl3ARfJ3K00SHSIFb2g==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [darwin]
 
-  '@oxc-transform/binding-freebsd-x64@0.141.0':
-    resolution: {integrity: sha512-DNF+Of7nckfwqu9fZin4vR8bGmF/3sWPvtw9Jc4cjeQoRB9vUuC6w9C/GxW+0Vr+PCH+gk4tR4Ygvjfx3LYOzQ==}
+  '@oxc-transform/binding-freebsd-x64@0.143.0':
+    resolution: {integrity: sha512-8Rir0D6CpKuh0tWuCjnZgk+r8XmKsGXncGBp6lmcYXwC5baLI3DK3T9I/CM1+khoF7JbFE3PqAmoF4HxGysxUQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [freebsd]
 
-  '@oxc-transform/binding-linux-arm-gnueabihf@0.141.0':
-    resolution: {integrity: sha512-nolqi5WqP68qVQJdnPFCF50JT5KzqlcpvwGFyIV+IRCLcv5Hh11gIu4InMs3Uswcf0BJnV/oLIjzb7Sycd3zJg==}
+  '@oxc-transform/binding-linux-arm-gnueabihf@0.143.0':
+    resolution: {integrity: sha512-4F+ErMGgG6f7ydN42VwD+4F1UHhYBb4vELUT/0+gOhuGBN1wwhOPNLhHeJJnZQHZM2JYERdS6wn9uBoBiXw3gw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-transform/binding-linux-arm-musleabihf@0.141.0':
-    resolution: {integrity: sha512-ytbO89DQl6KxjKCRlyCEtABgfs8njm623ambDkZZBer5J9dbTwbaV5hseZsPkVzZPxwXobu43/XS0jVZnrmCTA==}
+  '@oxc-transform/binding-linux-arm-musleabihf@0.143.0':
+    resolution: {integrity: sha512-XqEYetdBUbFJE8IQUOtDUlyAmoec7I5xkLBFW5wdMI6oRaRJeFFTAK4jg/5sSRzNLU/OFTBTWCn5soQ/iLbwHQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-transform/binding-linux-arm64-gnu@0.141.0':
-    resolution: {integrity: sha512-Tjj3pobBAzbzUJE8ljbS61om6yfVnarSZzS8LaFCSn0rB+hs0IZRE3jC9IzpsVPHSoJl4uhbIGebuDY2G3B6gg==}
+  '@oxc-transform/binding-linux-arm64-gnu@0.143.0':
+    resolution: {integrity: sha512-LXswrXbEouF3X/q5s+X3Im4VCCNu8aZDj6gRI/s32WDlBqwGosW/A8Ci5MgvCEnU3efVacXhAPPF9zbFE42OAg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-transform/binding-linux-arm64-musl@0.141.0':
-    resolution: {integrity: sha512-aUUptri02E4nqkUvyA+2oYkmU20pYnHIpNLPZOgom0kAa0Fx9X6QFKqKm1MopyucWolQ9XTgCK2PrupSSBdCdQ==}
+  '@oxc-transform/binding-linux-arm64-musl@0.143.0':
+    resolution: {integrity: sha512-/TKz33dR/kqEdmLwGYsAKuVbjDEPhFKq0PAyIMVCLbqglBy7BRQCw7w7g78X5PLFXso0LgfCFCz/C5dDtBDj/Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-transform/binding-linux-ppc64-gnu@0.141.0':
-    resolution: {integrity: sha512-d28AT+SfcAYFnulI2C8HJ5OeoUa5w+eMpwy0uMzbU/3zXJpFjjFOvJlEL8FNvx7HBEENj5IfgD+aXdNzEEn1Tg==}
+  '@oxc-transform/binding-linux-ppc64-gnu@0.143.0':
+    resolution: {integrity: sha512-2mVVq6P4cCXElahTV/GKufxdqRUWZtPHD3EQP2GFigjXRSAXl3HGelIgpYT8I8eoU7QNq6qk+avYsXImt9Hb+Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ppc64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-transform/binding-linux-riscv64-gnu@0.141.0':
-    resolution: {integrity: sha512-P6XVhw+MJsjeliWJ6BBKdC0HU1VEiwMRHtqUADK+jK5wiqgzt3/JhIcMuRLzBPYfnOujLpe+fm63yEzKUIAcSA==}
+  '@oxc-transform/binding-linux-riscv64-gnu@0.143.0':
+    resolution: {integrity: sha512-kkZtkNIqljF8KP9jrZYkhtY1Vbg35jaRj7mZCOinWUPwZIR8PYJwe2KkUVNII+148mYyxlCuf8DZXHiJJ9SNgg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-transform/binding-linux-riscv64-musl@0.141.0':
-    resolution: {integrity: sha512-6QUicErqoLpCVsXPYI+OEYJ95TjiV+trvX9VeCuyVcyL5p0Opi7DFQL2c1DcGHi1c9cqz1h09mUKCZ7Y52kxfw==}
+  '@oxc-transform/binding-linux-riscv64-musl@0.143.0':
+    resolution: {integrity: sha512-GRJr0FmQ6C8pbAl0ZyPh/VQwb1/hiXtwrb3IoK93LNsqMWNjbqKFP39lZlLQOdeU8QQADlZM8Qx75YQAOFkbSw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-transform/binding-linux-s390x-gnu@0.141.0':
-    resolution: {integrity: sha512-r2Jk0vfcnHnkPOjLnWvpGVTFcYDirGICBJYraCkWeplhPZ2Sgg9GvDVgah9VFOHRZVtK6XQynELP9A8EB/Ne0Q==}
+  '@oxc-transform/binding-linux-s390x-gnu@0.143.0':
+    resolution: {integrity: sha512-k4fpvbh7zGvSLXgOJznv7zPGLgFSYvaMWgVhebxmXZqJgax1kWVOhiJ92L+K/Aqq3tgLEQwkQ8wWGcArSM/O4g==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [s390x]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-transform/binding-linux-x64-gnu@0.141.0':
-    resolution: {integrity: sha512-lIsdGq4LA1IlbrZlmrhP/p0pCo4+5jrAlLp9BMzIHaV4mILBSr+ZtuTDkML4117cLHdzoWOqw0s3Rb7igOWtxw==}
+  '@oxc-transform/binding-linux-x64-gnu@0.143.0':
+    resolution: {integrity: sha512-utU2SgpVcipJsQ2lHmZm1twk5ke75/Xt1PivxGV8Va55vrXdIXK+At6ERv+6BikB28qauCe7vv2yovtkEuvmQQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-transform/binding-linux-x64-musl@0.141.0':
-    resolution: {integrity: sha512-y+9FbVRBhUtHBVn0xHiVcaNHkoRudIhlKhRk1+CclE1uGD6af3xznTjCOrKGB7HZ2SzlCWLZwQGm/KERpUjX1w==}
+  '@oxc-transform/binding-linux-x64-musl@0.143.0':
+    resolution: {integrity: sha512-T+cQ/IcWiQ5XVC1cG+DczewthN7c2Vujw0JyO2ugcr6B7TCQiucDd/erVxJSaY59X8d6970+lPtng8Z8XiyGYg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-transform/binding-openharmony-arm64@0.141.0':
-    resolution: {integrity: sha512-Ul5Fu6zPL7kjTbtBU30HaRFHPL3bjjpdieHmAXJlJDuFukuOXqVD6dS70b314IjFy/rbqkD8OK4MQ4408eEjyg==}
+  '@oxc-transform/binding-openharmony-arm64@0.143.0':
+    resolution: {integrity: sha512-3uyqUj+d9hccXdL5WiJW+SVojwckAqSGz+eEBjwIs0/2SXavVpasH8n4E2N5CbCOa4NJdaRKmquHa52s/DN1yQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [openharmony]
 
-  '@oxc-transform/binding-wasm32-wasi@0.141.0':
-    resolution: {integrity: sha512-GaQJvcyFJyle5lll67+iYAgv+G21bQXvWPNhD6YIYoR/bV8kS0Qm8YSL22Y/YZC/8RwsneVFWpP2y6VZJfcM/g==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    cpu: [wasm32]
-
-  '@oxc-transform/binding-win32-arm64-msvc@0.141.0':
-    resolution: {integrity: sha512-Fbi/hC64tNa56mXEitjaWsxQoMvtJDbOe2MxO+BA1v1Ev28L9n1yMJwhKyOCA+Rm8lYK91oOb5CRv3Ct5RuvJA==}
+  '@oxc-transform/binding-win32-arm64-msvc@0.143.0':
+    resolution: {integrity: sha512-5x4/nWog5kjADuMVoZx9KOpbrzJNRuz59oA5jFW95NvV69lZikgubJDIM7WwBReS0mIoIF+QC2r3pAiJtKrYJQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
 
-  '@oxc-transform/binding-win32-ia32-msvc@0.141.0':
-    resolution: {integrity: sha512-2HlslqwOXQ2nxAZjhqZIpvPxENhQGvA6b4cGwmiVD6Uh5x+dZAopOeEJRxRPpKcrr/W5KXfwwbttwx4OWbg9TA==}
+  '@oxc-transform/binding-win32-ia32-msvc@0.143.0':
+    resolution: {integrity: sha512-z/hozOHz6t/iB68GQPskKJMGxBMpBYqKhOmik3wOprnvnpwOeEyOQ89xuWgvQvX4B69LnxGyAWpJWjSK5zUVzA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ia32]
     os: [win32]
 
-  '@oxc-transform/binding-win32-x64-msvc@0.141.0':
-    resolution: {integrity: sha512-JEgTv+y56FbwinH1/kqpNyD+bWRWDpbbPdSY7Ta7rCKFiRsYkUHZd1v+XWxda08cS8GAmlKS4WKcVwtrAbDUHA==}
+  '@oxc-transform/binding-win32-x64-msvc@0.143.0':
+    resolution: {integrity: sha512-8AaiwIM4M/gEcvXWD71SZDCpY70z7J99G110+fSBws/MHa9PaaWu0IVp5clEG/0alWPQiPZcZRFE3ZIhSd5fng==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
@@ -1572,8 +1552,8 @@ packages:
     resolution: {integrity: sha512-mrtuL8Nsn6gi2H4mo5KMTp823M+3Q19Ew/i+Zlikq20tIMm99C3Ez0dCmkWWnxut20esQvTg8aUSEhMcAOXhEw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@unhead/vue@2.1.16':
-    resolution: {integrity: sha512-t6QykImeMJcrUTbFB0Coy0cB/OZItHdQFRFLoH8GAVXKWmQORGPrwvueP9me7adOCuMH2uVvrv0nCkbi6zksaA==}
+  '@unhead/vue@2.1.17':
+    resolution: {integrity: sha512-pnC8x9HLV3qQXdvWfylUEU25uhfCAy3ly9nmpQz84j9py818DRfU8jOsQ5wjdWtxyU1vX/fW2udfm4jtxUK8Bg==}
     peerDependencies:
       vue: '>=3.5.18'
 
@@ -1770,19 +1750,16 @@ packages:
   '@vue/devtools-api@6.6.4':
     resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
 
-  '@vue/devtools-core@8.1.5':
-    resolution: {integrity: sha512-5e5jQOEssCdZA1wlFEUkIDtb+cAOWuLNWJ52fm4PBWbF7e3oTnM2fneaL42E5lJoolAaUQ678tv/XEb3h4e86Q==}
+  '@vue/devtools-core@8.2.1':
+    resolution: {integrity: sha512-s/VfAY9oDTb/kFEWmy461jaFde2MIV1RO/gi1vwM+PAZBZ/Pc2Ndu3BNBdZUze8QDUuyYvElbEEGA83syjJfzA==}
     peerDependencies:
       vue: ^3.0.0
 
-  '@vue/devtools-kit@8.1.5':
-    resolution: {integrity: sha512-FcSAxsi4eWuXLCB7Rv9lj0aIVHHPNVQ2BazGf4RJTc2JCqb4BQg0hk87ZFhminCfl+mD5OUI0rX2cgyu4kJOGA==}
+  '@vue/devtools-kit@8.2.1':
+    resolution: {integrity: sha512-FIGIuq3AWReEpbAHY/cRGeHDfI0qOb8OCQ3YjbEAX04uaxIDbGc9rhkbVcG7rnfHPXE3RsU5KrWOu9V/okd8AQ==}
 
-  '@vue/devtools-shared@8.1.5':
-    resolution: {integrity: sha512-mhT4zcPFhF+Xk1O4BfhhrbXzpmfqY03fS6xGpcllbQG7lDjhQf8pQHcTIhqQIYx1hfwtHmk/6jM96ele0UxPqQ==}
-
-  '@vue/language-core@3.3.7':
-    resolution: {integrity: sha512-LzmkKinXAMMoh8Jfi/jMUSDUjuPdv8mynH5WJGKfXyZtDw3hQ6GBaoI6Bcnl/Xqlu32q/0Z6i/trp4VXykzyLw==}
+  '@vue/devtools-shared@8.2.1':
+    resolution: {integrity: sha512-Fkac7lUdGReh6pVOi3AYPRGe82LQqRmAfThW7RRligOAP0ZA/Z1z9XLHDM9dv34pV2HRc79DK8uKPeG2fLnA/g==}
 
   '@vue/language-core@3.3.9':
     resolution: {integrity: sha512-in/68oAa4BCtVY6n/nkuhLIkV8DHYd2UivedJ6cMZ6UYtlq9jaoaSNUBHYCVO44z3nKg7MdE5OBoHKt5SxeBKQ==}
@@ -2343,8 +2320,14 @@ packages:
   error-stack-parser-es@1.0.5:
     resolution: {integrity: sha512-5qucVt2XcuGMcEGgWI7i+yZpmpByQ8J1lHhcL7PwqCwu9FPP3VUXzT4ltHe5i2z9dePwEHcDVOAfSnHsOlCXRA==}
 
+  error-stack-parser-es@2.0.1:
+    resolution: {integrity: sha512-J36ntO+rMQVRuR/umlmxmfLi4TpWwtmTnHoJoXTiC2xDNazs0VDPKcX6pbhZMDd2HFtH9isMBJXMdbki+A++Pg==}
+
   errx@0.1.0:
     resolution: {integrity: sha512-fZmsRiDNv07K6s2KkKFTiD2aIvECa7++PKyD5NC32tpRw46qZA3sOz+aM+/V9V0GDHxVTKLziveV4JhzBHDp9Q==}
+
+  errx@0.1.2:
+    resolution: {integrity: sha512-chfpPHmCerdo/rXr/nNvPZRkV4WwDRwzwnsJ0Uzz3tVi8Z41tDctRjduYy1138ii77AFlts1qvWtX3g/Acg91Q==}
 
   es-errors@1.3.0:
     resolution: {integrity: sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==}
@@ -2544,6 +2527,9 @@ packages:
   exsolve@1.1.0:
     resolution: {integrity: sha512-D+42+T12DdIlJM3uepa55qGiL3sYdLBOxIl2ifQCzCHz4c7eiolaHsi3BIqEr7JxBzxv2pYZQX9kw16ziMcEmw==}
 
+  exsolve@1.1.1:
+    resolution: {integrity: sha512-9U/jZUgjnSGyntRr6y5Muu1MJcwFl6kPu7k8qLF0IMNfLqvw0NZ4nnVDq0RVoZ0RvCyumib4Ez3KYrVfilrw+g==}
+
   externality@1.0.2:
     resolution: {integrity: sha512-LyExtJWKxtgVzmgtEHyQtLFpw1KFhQphF9nTG8TpAIVkiI/xQ3FJh75tRFLYl4hkn7BNIIdLJInuDAavX35pMw==}
 
@@ -2563,8 +2549,8 @@ packages:
   fast-levenshtein@2.0.6:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
 
-  fast-npm-meta@1.5.1:
-    resolution: {integrity: sha512-tWhw7z4jFuQgZB9tbQyUh5BY9nNd/wimM+fBLfmmJjakkJDNvbJKm0nQ5ruPKC0us1HGg7L6iBk1fxpSzcgSaA==}
+  fast-npm-meta@2.2.0:
+    resolution: {integrity: sha512-99jPl8JkCSCa4VlboNU1XuL98ijm74Pm9CGo6H4BoMVoVh1uhguQcvwLgXDT8Vkl2qj/UEQ0J9gD8beHjTFk1w==}
     hasBin: true
 
   fast-string-truncated-width@3.0.3:
@@ -2979,9 +2965,6 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  magic-regexp@0.11.0:
-    resolution: {integrity: sha512-LG77Z/gVnwz7oaDpD4heX6ryl+lcr4l1B2gnP4MMvt2pGhGC1Dfj7dl1pXpP4ih+VQFLuAadeKVa+lARAzfW+Q==}
-
   magic-string-ast@1.0.3:
     resolution: {integrity: sha512-CvkkH1i81zl7mmb94DsRiFeG9V2fR2JeuK8yDgS8oiZSFa++wWLEgZ5ufEOyLHbvSbD1gTRKv9NdX69Rnvr9JA==}
     engines: {node: '>=20.19.0'}
@@ -2994,6 +2977,9 @@ packages:
 
   magicast@0.5.3:
     resolution: {integrity: sha512-pVKE4UdSQ7DvHzivsCIFx2BJn1mHG6KsyrFcaxFx6tONdneEuThrDx0Cj3AMg58KyN4pzYT+LHOotxDQDjNvkw==}
+
+  magicast@0.5.4:
+    resolution: {integrity: sha512-llBEhWm1SacoRwgHUoQJYtwp4PBLF4faQi5TCpIGyGs9n4y5+juI0tDgyKIfpqxckRHaHzouUEph3THklWh03w==}
 
   mdn-data@2.0.28:
     resolution: {integrity: sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==}
@@ -3130,6 +3116,9 @@ packages:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
+  nostics@1.2.0:
+    resolution: {integrity: sha512-FGqEfhQjrvo1lL8KFifdTQiNwwQHJxC1jtYE1Rc54qF/jxONUNL+kC9gS1krX8Q65PgrQ5fCqH/I4NhWBvdSqg==}
+
   npm-run-path@5.3.0:
     resolution: {integrity: sha512-ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -3141,8 +3130,8 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nuxt@3.21.10:
-    resolution: {integrity: sha512-lZZT7D/H7ZRsKjAMbIdIBcBT55t18tptdUO7FqoxuKm5MwP/EhPwGFwv0wtKBwIN7dS7/bY4u+8cSCJi98PdGQ==}
+  nuxt@3.21.11:
+    resolution: {integrity: sha512-/RlSSvx2ne/vXbeEy+ZWZ0uVgXyiadVkrK5hMx7XsDk7R6q2o4qln2JxoQqILe7K6HzbWM9/0YFS00bTRj/kEw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -3156,6 +3145,11 @@ packages:
 
   nypm@0.6.8:
     resolution: {integrity: sha512-Q9K4Diu6l5u6xJQogeFSs/zKtyMSgFKFtRQV+tHP4kL7KPm2grpBU0dFIwFaXwNxN0MtfKWc43VpCugAa+LPsw==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  nypm@0.6.9:
+    resolution: {integrity: sha512-zxlE2yvSWZWmHcNdT3+5zV2lrCogeE9YOklHrR3dFjqutq5wO7GFDYLFDRXLsYnJzwvy/im9fYoxePvS0VTW0w==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3195,24 +3189,27 @@ packages:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
     engines: {node: '>= 0.8.0'}
 
-  oxc-minify@0.141.0:
-    resolution: {integrity: sha512-+T/r+nBaKTT7UL5WDZHH8+l0bz+IZ495jHXiY2J6DWYkJXKrBCQRBS+u+hmlnhRfC5b0Uq1poZs0FLVMiDAmbw==}
+  oxc-minify@0.143.0:
+    resolution: {integrity: sha512-6P7PFKZpZkI14ez9duBfVWTKLBgJfJMtdPlGGUmTIXiwMWcxS4Qy4+65qWePmYyksuzhaI5AS660V2/UjaveMA==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
-  oxc-parser@0.140.0:
-    resolution: {integrity: sha512-h6QFWd6lBMfjESqgQ27GjzrSDb0qbznp7VDQqp2zvgsrWut4vcchyMIzOVXvGQ2GMZgKw9RWrFNWv9WqGL0p7Q==}
+  oxc-parser@0.143.0:
+    resolution: {integrity: sha512-ov0NzaDCOInknS7mP1cwKdJERt3utPW8ldjtdUXQ8Ty0GEFD08wk422vCUN0d7pST6kqtV7dxoI9w1Zi0l/9TA==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
-  oxc-transform@0.141.0:
-    resolution: {integrity: sha512-CrMPblXfPl57WIvGjynrUThcyEGcS3E3YUHkPYAwXYYla23gLlaIYifVFTMQsFr5uxA/2k/XMG5n6c/XsuAvaQ==}
+  oxc-transform@0.143.0:
+    resolution: {integrity: sha512-DBx6urRQRwA2pu3sMxmmVONu2fFlOoi3cU63DGyNsuB5YuAeR/AujdfBv7qqRRq0SnWlPsrHNrzoF8Zf43fIsg==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
-  oxc-walker@1.0.0:
-    resolution: {integrity: sha512-eMsHflAGfOskpWxtp9xP/f5b96XLEU8ifTd2gOOCkdux9HMxKGy5S1ru0Gh1B3aPu+YbfmWUUVkcb7MrZz3XyQ==}
+  oxc-walker@1.1.1:
+    resolution: {integrity: sha512-Hwd7dq28zu/Er99+bpWp16CGwFrhyalJh0W3JOB7XpPvgWo3MqMi2ksWGKuzzA9zt50mJ2pIUwR5lpAdZ9ACNQ==}
     peerDependencies:
+      '@oxc-project/types': '>=0.98.0'
       oxc-parser: '>=0.98.0'
       rolldown: '>=1.0.0'
     peerDependenciesMeta:
+      '@oxc-project/types':
+        optional: true
       oxc-parser:
         optional: true
       rolldown:
@@ -3475,10 +3472,6 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.5.19:
-    resolution: {integrity: sha512-Mz8SaolMd8nB+G13WkORcxQKHZ/NE4xXevtkJHVuG+guo9/wYKlIMTKAqGdEmYOXR2ijPjTYNHssizdaVSUNdQ==}
-    engines: {node: ^10 || ^12 || >=14}
-
   postcss@8.5.25:
     resolution: {integrity: sha512-DTPx3RWSSnWyzLxQnlH0rJP+EW5ekl16ZU4/psbIhA0e53kJfdgaN5vKM+xP7yJtXVu+nfdVFmlgFDEKAe4Pyw==}
     engines: {node: ^10 || ^12 || >=14}
@@ -3649,8 +3642,8 @@ packages:
     resolution: {integrity: sha512-YAy8Od6KV+uuwUuU50np8fGB/Aues6Y0nAhA9y/hId74PlKUcme4pXcBD46NWKr1Q4osN/iseZ17YqO1XfmI8g==}
     engines: {node: '>=20.0.0'}
 
-  seroval@1.6.0:
-    resolution: {integrity: sha512-TBwwKfscTEgnBEWmYKKeCcmCGmrJi0LV6qNUY//WBA3MDesh/zfn+KOMq/ckpxM4gZ0ouAE706A1eenekM2sug==}
+  seroval@1.6.2:
+    resolution: {integrity: sha512-mPT+SD2TrlB6wvte1KkYOYUkubaTbd6pZ/6Kk3C9nxzrHmCZyhxOO7XGAeL7f+yLKZglzGtM9odUVvg/EhO+vQ==}
     engines: {node: '>=10'}
 
   serve-placeholder@2.0.2:
@@ -3885,9 +3878,6 @@ packages:
     resolution: {integrity: sha512-YGYEVz3Fm5iy/AybuA0oyNFq7H4CgQNfRp/qfe8nurE1kuCeNm3/vfm9X4Mtl+qLyaKJUh5xrFZwogr41SMjYA==}
     engines: {node: '>=20'}
 
-  type-level-regexp@0.1.17:
-    resolution: {integrity: sha512-wTk4DH3cxwk196uGLK/E9pE45aLfeKJacKmcEgEOA/q5dnPGNxXt0cfYdFxb57L+sEpf1oJH4Dnx/pnRcku9jg==}
-
   typescript@6.0.3:
     resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
@@ -3905,11 +3895,28 @@ packages:
   unctx@2.5.0:
     resolution: {integrity: sha512-p+Rz9x0R7X+CYDkT+Xg8/GhpcShTlU8n+cf9OtOEf7zEQsNcCZO1dPKNRDqvUTaq+P32PMMkxWHwfrxkqfqAYg==}
 
+  unctx@3.0.0:
+    resolution: {integrity: sha512-DoXdZVeyi2jyEsn86i8MO5RTItm1kffUkH9/+DQORn3Q688AMOy2551CIl6AdGL2UpwD675wtbNOl75wIQN/uA==}
+    peerDependencies:
+      magic-string: '>=0.30.21'
+      oxc-parser: '>=0.140.0'
+      rolldown: ^1.1.5
+      unplugin: ^3.3.0
+    peerDependenciesMeta:
+      magic-string:
+        optional: true
+      oxc-parser:
+        optional: true
+      rolldown:
+        optional: true
+      unplugin:
+        optional: true
+
   unenv@2.0.0-rc.24:
     resolution: {integrity: sha512-i7qRCmY42zmCwnYlh9H2SvLEypEFGye5iRmEMKjcGi7zk9UquigRjFtTLz0TYqr0ZGLZhaMHl/foy1bZR+Cwlw==}
 
-  unhead@2.1.16:
-    resolution: {integrity: sha512-cD2Q4a6SQHhW9/bPp17NT4GJ1yS0DSLe75WEHKQ8bKa/wjB6cIki3KeL86hhllNBcpv8i6bxdwtwQunneXPqKQ==}
+  unhead@2.1.17:
+    resolution: {integrity: sha512-HLMKXOszRhAPBrr6VlqCeVeJq2kbC4kXwzGLEZvvojPLWNYTJw22xG7Bfwhsvs31+IBet3Wl8ADg9dwYdyphfQ==}
 
   unicorn-magic@0.3.0:
     resolution: {integrity: sha512-+QBBXBCvifc56fsbuxZQ6Sic3wqqc3WWaqxs58gvJrcOuN83HGTCwz3oS5phzU9LthRNE9VrJCFCLUgHeeFnfA==}
@@ -3922,18 +3929,6 @@ packages:
   unimport@5.7.0:
     resolution: {integrity: sha512-njnL6sp8lEA8QQbZrt+52p/g4X0rw3bnGGmUcJnt1jeG8+iiqO779aGz0PirCtydAIVcuTBRlJ52F0u46z309Q==}
     engines: {node: '>=18.12.0'}
-
-  unimport@6.3.0:
-    resolution: {integrity: sha512-M+Dxk5W9WRd+8j56W9tp8lGW/dmMc7g5zj7BWQnEjKQhryBstqsi1V0izb0zHwSkEN8cSYV7K75/bykairV2tA==}
-    engines: {node: '>=18.12.0'}
-    peerDependencies:
-      oxc-parser: '*'
-      rolldown: ^1.0.0
-    peerDependenciesMeta:
-      oxc-parser:
-        optional: true
-      rolldown:
-        optional: true
 
   unimport@6.4.0:
     resolution: {integrity: sha512-JJOOuNMFq8b4ZPBKwQUxEcba4MplskDzYI1Lvrf8rJfWphZTWvPNXWa493qsPngHUmub89w6C7j+SeLWTE/UIQ==}
@@ -4088,6 +4083,10 @@ packages:
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+
+  verkit@0.3.2:
+    resolution: {integrity: sha512-zj/ob3UsvJGN0whEAKFp53REA5X66hvffVqoCtVQAakJKnKlH+/PcOfMoFwIG/o4rElqLv/ycAFlx8ZlXUorCg==}
+    engines: {node: '>=18.12.0'}
 
   vite-dev-rpc@2.0.0:
     resolution: {integrity: sha512-yKwbTwdHKSD2k/aGqyWpPHepo45OQc8lH3/6IfT4ZqeKE26ooKvi4WIEKzqWav8v+9Is8u1k8q54hvOmqASazA==}
@@ -4522,23 +4521,24 @@ snapshots:
 
   '@colordx/core@5.5.0': {}
 
-  '@dxup/nuxt@0.5.3(esbuild@0.28.1)(magicast@0.5.3)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))':
+  '@dxup/nuxt@0.5.6(esbuild@0.27.7)(magicast@0.5.3)(oxc-parser@0.143.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))':
     dependencies:
       '@dxup/unimport': 0.1.2
-      '@nuxt/kit': 4.4.8(magicast@0.5.3)
+      '@nuxt/kit': 4.5.2(magic-string@1.1.0)(magicast@0.5.3)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))
       '@vue/compiler-dom': 3.5.40
       chokidar: 5.0.0
       knitwork: 1.3.0
-      magic-string: 0.30.21
+      magic-string: 1.1.0
       pathe: 2.0.3
       tinyglobby: 0.2.17
-      unplugin: 3.3.0(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      unplugin: 3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
     transitivePeerDependencies:
       - '@farmfe/core'
       - '@rspack/core'
       - bun-types-no-globals
       - esbuild
       - magicast
+      - oxc-parser
       - rolldown
       - rollup
       - unloader
@@ -4553,28 +4553,12 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@emnapi/core@1.11.2':
-    dependencies:
-      '@emnapi/wasi-threads': 1.2.2
-      tslib: 2.8.1
-    optional: true
-
   '@emnapi/runtime@1.10.0':
     dependencies:
       tslib: 2.8.1
     optional: true
 
-  '@emnapi/runtime@1.11.2':
-    dependencies:
-      tslib: 2.8.1
-    optional: true
-
   '@emnapi/wasi-threads@1.2.1':
-    dependencies:
-      tslib: 2.8.1
-    optional: true
-
-  '@emnapi/wasi-threads@1.2.2':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -4885,13 +4869,6 @@ snapshots:
       '@tybys/wasm-util': 0.10.3
     optional: true
 
-  '@napi-rs/wasm-runtime@1.1.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
-    dependencies:
-      '@emnapi/core': 1.11.2
-      '@emnapi/runtime': 1.11.2
-      '@tybys/wasm-util': 0.10.3
-    optional: true
-
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -4904,7 +4881,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.20.1
 
-  '@nuxt/cli@3.37.0(@nuxt/schema@3.21.10)(cac@6.7.14)(magicast@0.5.3)(supports-color@10.2.2)':
+  '@nuxt/cli@3.37.0(@nuxt/schema@3.21.11)(cac@6.7.14)(magicast@0.5.3)(supports-color@10.2.2)':
     dependencies:
       '@bomb.sh/tab': 0.0.19(cac@6.7.14)(citty@0.2.2)
       '@clack/prompts': 1.7.0
@@ -4935,7 +4912,7 @@ snapshots:
       ufo: 1.6.4
       youch: 4.1.1
     optionalDependencies:
-      '@nuxt/schema': 3.21.10
+      '@nuxt/schema': 3.21.11
     transitivePeerDependencies:
       - cac
       - commander
@@ -4952,46 +4929,50 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/devtools-kit@3.4.0(magicast@0.5.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))':
+  '@nuxt/devtools-kit@3.4.1(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))':
     dependencies:
-      '@nuxt/kit': 4.4.8(magicast@0.5.3)
+      '@nuxt/kit': 4.5.2(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))
       execa: 8.0.1
       vite: 7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)
     transitivePeerDependencies:
+      - magic-string
       - magicast
+      - oxc-parser
+      - rolldown
+      - unplugin
 
-  '@nuxt/devtools-wizard@3.4.0':
+  '@nuxt/devtools-wizard@3.4.1':
     dependencies:
       '@clack/prompts': 1.7.0
       consola: 3.4.2
       diff: 8.0.4
       execa: 8.0.1
-      magicast: 0.5.3
+      magicast: 0.5.4
       pathe: 2.0.3
       pkg-types: 2.3.1
       semver: 7.8.5
 
-  '@nuxt/devtools@3.4.0(db0@0.3.4)(ioredis@5.11.1(supports-color@10.2.2))(supports-color@10.2.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue@3.5.40(typescript@6.0.3))':
+  '@nuxt/devtools@3.4.1(db0@0.3.4)(ioredis@5.11.1(supports-color@10.2.2))(magic-string@0.30.21)(oxc-parser@0.143.0)(supports-color@10.2.2)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue@3.5.40(typescript@6.0.3))':
     dependencies:
-      '@nuxt/devtools-kit': 3.4.0(magicast@0.5.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
-      '@nuxt/devtools-wizard': 3.4.0
-      '@nuxt/kit': 4.4.8(magicast@0.5.3)
-      '@vue/devtools-core': 8.1.5(vue@3.5.40(typescript@6.0.3))
-      '@vue/devtools-kit': 8.1.5
+      '@nuxt/devtools-kit': 3.4.1(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      '@nuxt/devtools-wizard': 3.4.1
+      '@nuxt/kit': 4.5.2(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))
+      '@vue/devtools-core': 8.2.1(vue@3.5.40(typescript@6.0.3))
+      '@vue/devtools-kit': 8.2.1
       birpc: 4.0.0
       consola: 3.4.2
       destr: 2.0.5
-      error-stack-parser-es: 1.0.5
+      error-stack-parser-es: 2.0.1
       execa: 8.0.1
-      fast-npm-meta: 1.5.1
+      fast-npm-meta: 2.2.0
       get-port-please: 3.2.0
       hookable: 6.1.1
       image-meta: 0.2.2
       is-installed-globally: 1.0.0
       launch-editor: 2.14.1
       local-pkg: 1.2.1
-      magicast: 0.5.3
-      nypm: 0.6.8
+      magicast: 0.5.4
+      nypm: 0.6.9
       ohash: 2.0.11
       pathe: 2.0.3
       perfect-debounce: 2.1.0
@@ -5003,7 +4984,7 @@ snapshots:
       tinyglobby: 0.2.17
       unstorage: 1.17.5(db0@0.3.4)(ioredis@5.11.1(supports-color@10.2.2))
       vite: 7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)
-      vite-plugin-inspect: 11.4.1(@nuxt/kit@4.4.8(magicast@0.5.3))(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      vite-plugin-inspect: 11.4.1(@nuxt/kit@4.5.2(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))))(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
       vite-plugin-vue-tracer: 1.4.0(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue@3.5.40(typescript@6.0.3))
       which: 6.0.1
       ws: 8.21.1
@@ -5027,7 +5008,11 @@ snapshots:
       - db0
       - idb-keyval
       - ioredis
+      - magic-string
+      - oxc-parser
+      - rolldown
       - supports-color
+      - unplugin
       - uploadthing
       - utf-8-validate
       - vue
@@ -5100,14 +5085,14 @@ snapshots:
       - utf-8-validate
       - vite
 
-  '@nuxt/kit@3.21.10(magicast@0.5.3)':
+  '@nuxt/kit@3.21.11(magicast@0.5.3)':
     dependencies:
       c12: 3.3.4(magicast@0.5.3)
       consola: 3.4.2
       defu: 6.1.7
       destr: 2.0.5
-      errx: 0.1.0
-      exsolve: 1.1.0
+      errx: 0.1.2
+      exsolve: 1.1.1
       ignore: 7.0.6
       jiti: 2.7.0
       klona: 2.0.6
@@ -5151,25 +5136,85 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/nitro-server@3.21.10(db0@0.3.4)(esbuild@0.28.1)(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(nuxt@3.21.10(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.28.1)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0))(oxc-parser@0.140.0)(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))':
+  '@nuxt/kit@4.5.2(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))':
+    dependencies:
+      c12: 3.3.4(magicast@0.5.4)
+      consola: 3.4.2
+      defu: 6.1.7
+      destr: 2.0.5
+      errx: 0.1.2
+      exsolve: 1.1.1
+      ignore: 7.0.6
+      jiti: 2.7.0
+      klona: 2.0.6
+      mlly: 1.8.2
+      nostics: 1.2.0
+      ohash: 2.0.11
+      pathe: 2.0.3
+      pkg-types: 2.3.1
+      rc9: 3.0.1
+      scule: 1.3.0
+      tinyglobby: 0.2.17
+      ufo: 1.6.4
+      unctx: 3.0.0(magic-string@0.30.21)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))
+      untyped: 2.0.0
+      verkit: 0.3.2
+    transitivePeerDependencies:
+      - magic-string
+      - magicast
+      - oxc-parser
+      - rolldown
+      - unplugin
+
+  '@nuxt/kit@4.5.2(magic-string@1.1.0)(magicast@0.5.3)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))':
+    dependencies:
+      c12: 3.3.4(magicast@0.5.3)
+      consola: 3.4.2
+      defu: 6.1.7
+      destr: 2.0.5
+      errx: 0.1.2
+      exsolve: 1.1.1
+      ignore: 7.0.6
+      jiti: 2.7.0
+      klona: 2.0.6
+      mlly: 1.8.2
+      nostics: 1.2.0
+      ohash: 2.0.11
+      pathe: 2.0.3
+      pkg-types: 2.3.1
+      rc9: 3.0.1
+      scule: 1.3.0
+      tinyglobby: 0.2.17
+      ufo: 1.6.4
+      unctx: 3.0.0(magic-string@1.1.0)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))
+      untyped: 2.0.0
+      verkit: 0.3.2
+    transitivePeerDependencies:
+      - magic-string
+      - magicast
+      - oxc-parser
+      - rolldown
+      - unplugin
+
+  '@nuxt/nitro-server@3.21.11(db0@0.3.4)(esbuild@0.27.7)(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(nuxt@3.21.11(@oxc-project/types@0.143.0)(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.27.7)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0))(oxc-parser@0.143.0)(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))':
     dependencies:
       '@nuxt/devalue': 2.0.2
-      '@nuxt/kit': 3.21.10(magicast@0.5.3)
-      '@unhead/vue': 2.1.16(vue@3.5.40(typescript@6.0.3))
+      '@nuxt/kit': 3.21.11(magicast@0.5.3)
+      '@unhead/vue': 2.1.17(vue@3.5.40(typescript@6.0.3))
       '@vue/shared': 3.5.40
       consola: 3.4.2
       defu: 6.1.7
       destr: 2.0.5
       devalue: 5.9.0
-      errx: 0.1.0
+      errx: 0.1.2
       escape-string-regexp: 5.0.0
-      exsolve: 1.1.0
+      exsolve: 1.1.1
       h3: 1.15.11
-      impound: 1.1.6(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      impound: 1.1.6(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
       klona: 2.0.6
       mocked-exports: 0.1.1
-      nitropack: 2.13.4(oxc-parser@0.140.0)(srvx@0.11.22)(supports-color@10.2.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
-      nuxt: 3.21.10(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.28.1)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0)
+      nitropack: 2.13.4(oxc-parser@0.143.0)(srvx@0.11.22)(supports-color@10.2.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      nuxt: 3.21.11(@oxc-project/types@0.143.0)(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.27.7)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0)
       ohash: 2.0.11
       pathe: 2.0.3
       pkg-types: 2.3.1
@@ -5227,7 +5272,7 @@ snapshots:
       - webpack
       - xml2js
 
-  '@nuxt/schema@3.21.10':
+  '@nuxt/schema@3.21.11':
     dependencies:
       '@vue/shared': 3.5.40
       defu: 6.1.7
@@ -5235,18 +5280,18 @@ snapshots:
       pkg-types: 2.3.1
       std-env: 4.2.0
 
-  '@nuxt/telemetry@2.8.0(@nuxt/kit@3.21.10(magicast@0.5.3))':
+  '@nuxt/telemetry@2.8.0(@nuxt/kit@3.21.11(magicast@0.5.3))':
     dependencies:
-      '@nuxt/kit': 3.21.10(magicast@0.5.3)
+      '@nuxt/kit': 3.21.11(magicast@0.5.3)
       citty: 0.2.2
       consola: 3.4.2
       ofetch: 2.0.0-alpha.3
       rc9: 3.0.1
       std-env: 4.2.0
 
-  '@nuxt/vite-builder@3.21.10(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(magicast@0.5.3)(nuxt@3.21.10(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.28.1)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0))(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vue-tsc@3.3.9(typescript@6.0.3))(vue@3.5.40(typescript@6.0.3))(yaml@2.9.0)':
+  '@nuxt/vite-builder@3.21.11(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(magicast@0.5.3)(nuxt@3.21.11(@oxc-project/types@0.143.0)(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.27.7)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0))(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vue-tsc@3.3.9(typescript@6.0.3))(vue@3.5.40(typescript@6.0.3))(yaml@2.9.0)':
     dependencies:
-      '@nuxt/kit': 3.21.10(magicast@0.5.3)
+      '@nuxt/kit': 3.21.11(magicast@0.5.3)
       '@rollup/plugin-replace': 6.0.3(rollup@4.62.2)
       '@vitejs/plugin-vue': 6.0.8(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue@3.5.40(typescript@6.0.3))
       '@vitejs/plugin-vue-jsx': 5.1.6(supports-color@10.2.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue@3.5.40(typescript@6.0.3))
@@ -5255,7 +5300,7 @@ snapshots:
       cssnano: 7.1.9(postcss@8.5.25)
       defu: 6.1.7
       escape-string-regexp: 5.0.0
-      exsolve: 1.1.0
+      exsolve: 1.1.1
       externality: 1.0.2
       generic-names: 4.0.0
       get-port-please: 3.2.0
@@ -5264,14 +5309,14 @@ snapshots:
       magic-string: 0.30.21
       mlly: 1.8.2
       mocked-exports: 0.1.1
-      nuxt: 3.21.10(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.28.1)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0)
-      nypm: 0.6.8
+      nuxt: 3.21.11(@oxc-project/types@0.143.0)(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.27.7)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0)
+      nypm: 0.6.9
       ohash: 2.0.11
       pathe: 2.0.3
       perfect-debounce: 2.1.0
       pkg-types: 2.3.1
       postcss: 8.5.25
-      seroval: 1.6.0
+      seroval: 1.6.2
       std-env: 4.2.0
       ufo: 1.6.4
       unenv: 2.0.0-rc.24
@@ -5305,198 +5350,177 @@ snapshots:
       - vue-tsc
       - yaml
 
-  '@oxc-minify/binding-android-arm-eabi@0.141.0':
+  '@oxc-minify/binding-android-arm-eabi@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-android-arm64@0.141.0':
+  '@oxc-minify/binding-android-arm64@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-darwin-arm64@0.141.0':
+  '@oxc-minify/binding-darwin-arm64@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-darwin-x64@0.141.0':
+  '@oxc-minify/binding-darwin-x64@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-freebsd-x64@0.141.0':
+  '@oxc-minify/binding-freebsd-x64@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-linux-arm-gnueabihf@0.141.0':
+  '@oxc-minify/binding-linux-arm-gnueabihf@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-linux-arm-musleabihf@0.141.0':
+  '@oxc-minify/binding-linux-arm-musleabihf@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-linux-arm64-gnu@0.141.0':
+  '@oxc-minify/binding-linux-arm64-gnu@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-linux-arm64-musl@0.141.0':
+  '@oxc-minify/binding-linux-arm64-musl@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-linux-ppc64-gnu@0.141.0':
+  '@oxc-minify/binding-linux-ppc64-gnu@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-linux-riscv64-gnu@0.141.0':
+  '@oxc-minify/binding-linux-riscv64-gnu@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-linux-riscv64-musl@0.141.0':
+  '@oxc-minify/binding-linux-riscv64-musl@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-linux-s390x-gnu@0.141.0':
+  '@oxc-minify/binding-linux-s390x-gnu@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-linux-x64-gnu@0.141.0':
+  '@oxc-minify/binding-linux-x64-gnu@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-linux-x64-musl@0.141.0':
+  '@oxc-minify/binding-linux-x64-musl@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-openharmony-arm64@0.141.0':
+  '@oxc-minify/binding-openharmony-arm64@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-wasm32-wasi@0.141.0':
-    dependencies:
-      '@emnapi/core': 1.11.2
-      '@emnapi/runtime': 1.11.2
-      '@napi-rs/wasm-runtime': 1.1.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
+  '@oxc-minify/binding-win32-arm64-msvc@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-win32-arm64-msvc@0.141.0':
+  '@oxc-minify/binding-win32-ia32-msvc@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-win32-ia32-msvc@0.141.0':
+  '@oxc-minify/binding-win32-x64-msvc@0.143.0':
     optional: true
 
-  '@oxc-minify/binding-win32-x64-msvc@0.141.0':
+  '@oxc-parser/binding-android-arm-eabi@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-android-arm-eabi@0.140.0':
+  '@oxc-parser/binding-android-arm64@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-android-arm64@0.140.0':
+  '@oxc-parser/binding-darwin-arm64@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-darwin-arm64@0.140.0':
+  '@oxc-parser/binding-darwin-x64@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-darwin-x64@0.140.0':
+  '@oxc-parser/binding-freebsd-x64@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-freebsd-x64@0.140.0':
+  '@oxc-parser/binding-linux-arm-gnueabihf@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-linux-arm-gnueabihf@0.140.0':
+  '@oxc-parser/binding-linux-arm-musleabihf@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-linux-arm-musleabihf@0.140.0':
+  '@oxc-parser/binding-linux-arm64-gnu@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-linux-arm64-gnu@0.140.0':
+  '@oxc-parser/binding-linux-arm64-musl@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-linux-arm64-musl@0.140.0':
+  '@oxc-parser/binding-linux-ppc64-gnu@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-linux-ppc64-gnu@0.140.0':
+  '@oxc-parser/binding-linux-riscv64-gnu@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-linux-riscv64-gnu@0.140.0':
+  '@oxc-parser/binding-linux-riscv64-musl@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-linux-riscv64-musl@0.140.0':
+  '@oxc-parser/binding-linux-s390x-gnu@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-linux-s390x-gnu@0.140.0':
+  '@oxc-parser/binding-linux-x64-gnu@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-linux-x64-gnu@0.140.0':
+  '@oxc-parser/binding-linux-x64-musl@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-linux-x64-musl@0.140.0':
+  '@oxc-parser/binding-openharmony-arm64@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-openharmony-arm64@0.140.0':
+  '@oxc-parser/binding-win32-arm64-msvc@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-wasm32-wasi@0.140.0':
-    dependencies:
-      '@emnapi/core': 1.11.2
-      '@emnapi/runtime': 1.11.2
-      '@napi-rs/wasm-runtime': 1.1.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
+  '@oxc-parser/binding-win32-ia32-msvc@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-win32-arm64-msvc@0.140.0':
+  '@oxc-parser/binding-win32-x64-msvc@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-win32-ia32-msvc@0.140.0':
+  '@oxc-project/types@0.143.0': {}
+
+  '@oxc-transform/binding-android-arm-eabi@0.143.0':
     optional: true
 
-  '@oxc-parser/binding-win32-x64-msvc@0.140.0':
+  '@oxc-transform/binding-android-arm64@0.143.0':
     optional: true
 
-  '@oxc-project/types@0.140.0': {}
-
-  '@oxc-transform/binding-android-arm-eabi@0.141.0':
+  '@oxc-transform/binding-darwin-arm64@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-android-arm64@0.141.0':
+  '@oxc-transform/binding-darwin-x64@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-darwin-arm64@0.141.0':
+  '@oxc-transform/binding-freebsd-x64@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-darwin-x64@0.141.0':
+  '@oxc-transform/binding-linux-arm-gnueabihf@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-freebsd-x64@0.141.0':
+  '@oxc-transform/binding-linux-arm-musleabihf@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-linux-arm-gnueabihf@0.141.0':
+  '@oxc-transform/binding-linux-arm64-gnu@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-linux-arm-musleabihf@0.141.0':
+  '@oxc-transform/binding-linux-arm64-musl@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-linux-arm64-gnu@0.141.0':
+  '@oxc-transform/binding-linux-ppc64-gnu@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-linux-arm64-musl@0.141.0':
+  '@oxc-transform/binding-linux-riscv64-gnu@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-linux-ppc64-gnu@0.141.0':
+  '@oxc-transform/binding-linux-riscv64-musl@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-linux-riscv64-gnu@0.141.0':
+  '@oxc-transform/binding-linux-s390x-gnu@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-linux-riscv64-musl@0.141.0':
+  '@oxc-transform/binding-linux-x64-gnu@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-linux-s390x-gnu@0.141.0':
+  '@oxc-transform/binding-linux-x64-musl@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-linux-x64-gnu@0.141.0':
+  '@oxc-transform/binding-openharmony-arm64@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-linux-x64-musl@0.141.0':
+  '@oxc-transform/binding-win32-arm64-msvc@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-openharmony-arm64@0.141.0':
+  '@oxc-transform/binding-win32-ia32-msvc@0.143.0':
     optional: true
 
-  '@oxc-transform/binding-wasm32-wasi@0.141.0':
-    dependencies:
-      '@emnapi/core': 1.11.2
-      '@emnapi/runtime': 1.11.2
-      '@napi-rs/wasm-runtime': 1.1.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
-    optional: true
-
-  '@oxc-transform/binding-win32-arm64-msvc@0.141.0':
-    optional: true
-
-  '@oxc-transform/binding-win32-ia32-msvc@0.141.0':
-    optional: true
-
-  '@oxc-transform/binding-win32-x64-msvc@0.141.0':
+  '@oxc-transform/binding-win32-x64-msvc@0.143.0':
     optional: true
 
   '@parcel/watcher-android-arm64@2.5.6':
@@ -5849,10 +5873,10 @@ snapshots:
       '@typescript-eslint/types': 8.64.0
       eslint-visitor-keys: 5.0.1
 
-  '@unhead/vue@2.1.16(vue@3.5.40(typescript@6.0.3))':
+  '@unhead/vue@2.1.17(vue@3.5.40(typescript@6.0.3))':
     dependencies:
       hookable: 6.1.1
-      unhead: 2.1.16
+      unhead: 2.1.17
       vue: 3.5.40(typescript@6.0.3)
 
   '@unrs/resolver-binding-android-arm-eabi@1.12.2':
@@ -5929,8 +5953,8 @@ snapshots:
     dependencies:
       '@mapbox/node-pre-gyp': 2.0.3(supports-color@10.2.2)
       '@rollup/pluginutils': 5.4.0(rollup@4.62.2)
-      acorn: 8.17.0
-      acorn-import-attributes: 1.9.5(acorn@8.17.0)
+      acorn: 8.18.0
+      acorn-import-attributes: 1.9.5(acorn@8.18.0)
       async-sema: 3.1.1
       bindings: 1.5.0
       estree-walker: 2.0.2
@@ -6037,7 +6061,7 @@ snapshots:
       '@vue/shared': 3.5.40
       estree-walker: 2.0.2
       magic-string: 0.30.21
-      postcss: 8.5.19
+      postcss: 8.5.25
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.40':
@@ -6047,30 +6071,20 @@ snapshots:
 
   '@vue/devtools-api@6.6.4': {}
 
-  '@vue/devtools-core@8.1.5(vue@3.5.40(typescript@6.0.3))':
+  '@vue/devtools-core@8.2.1(vue@3.5.40(typescript@6.0.3))':
     dependencies:
-      '@vue/devtools-kit': 8.1.5
-      '@vue/devtools-shared': 8.1.5
+      '@vue/devtools-kit': 8.2.1
+      '@vue/devtools-shared': 8.2.1
       vue: 3.5.40(typescript@6.0.3)
 
-  '@vue/devtools-kit@8.1.5':
+  '@vue/devtools-kit@8.2.1':
     dependencies:
-      '@vue/devtools-shared': 8.1.5
+      '@vue/devtools-shared': 8.2.1
       birpc: 2.9.0
       hookable: 5.5.3
       perfect-debounce: 2.1.0
 
-  '@vue/devtools-shared@8.1.5': {}
-
-  '@vue/language-core@3.3.7':
-    dependencies:
-      '@volar/language-core': 2.4.28
-      '@vue/compiler-dom': 3.5.40
-      '@vue/shared': 3.5.40
-      alien-signals: 3.2.1
-      muggle-string: 0.4.1
-      path-browserify: 1.0.1
-      picomatch: 4.0.5
+  '@vue/devtools-shared@8.2.1': {}
 
   '@vue/language-core@3.3.9':
     dependencies:
@@ -6112,13 +6126,17 @@ snapshots:
     dependencies:
       event-target-shim: 5.0.1
 
-  acorn-import-attributes@1.9.5(acorn@8.17.0):
+  acorn-import-attributes@1.9.5(acorn@8.18.0):
     dependencies:
-      acorn: 8.17.0
+      acorn: 8.18.0
 
   acorn-jsx@5.3.2(acorn@8.17.0):
     dependencies:
       acorn: 8.17.0
+
+  acorn-jsx@5.3.2(acorn@8.18.0):
+    dependencies:
+      acorn: 8.18.0
 
   acorn@8.17.0: {}
 
@@ -6308,6 +6326,23 @@ snapshots:
       rc9: 3.0.1
     optionalDependencies:
       magicast: 0.5.3
+
+  c12@3.3.4(magicast@0.5.4):
+    dependencies:
+      chokidar: 5.0.0
+      confbox: 0.2.4
+      defu: 6.1.7
+      dotenv: 17.4.2
+      exsolve: 1.1.0
+      giget: 3.3.0
+      jiti: 2.7.0
+      ohash: 2.0.11
+      pathe: 2.0.3
+      perfect-debounce: 2.1.0
+      pkg-types: 2.3.1
+      rc9: 3.0.1
+    optionalDependencies:
+      magicast: 0.5.4
 
   cac@6.7.14: {}
 
@@ -6581,7 +6616,11 @@ snapshots:
 
   error-stack-parser-es@1.0.5: {}
 
+  error-stack-parser-es@2.0.1: {}
+
   errx@0.1.0: {}
+
+  errx@0.1.2: {}
 
   es-errors@1.3.0: {}
 
@@ -6825,8 +6864,8 @@ snapshots:
 
   espree@10.4.0:
     dependencies:
-      acorn: 8.17.0
-      acorn-jsx: 5.3.2(acorn@8.17.0)
+      acorn: 8.18.0
+      acorn-jsx: 5.3.2(acorn@8.18.0)
       eslint-visitor-keys: 4.2.1
 
   espree@11.2.0:
@@ -6879,6 +6918,8 @@ snapshots:
 
   exsolve@1.1.0: {}
 
+  exsolve@1.1.1: {}
+
   externality@1.0.2:
     dependencies:
       enhanced-resolve: 5.24.2
@@ -6902,7 +6943,9 @@ snapshots:
 
   fast-levenshtein@2.0.6: {}
 
-  fast-npm-meta@1.5.1: {}
+  fast-npm-meta@2.2.0:
+    dependencies:
+      cac: 7.0.0
 
   fast-string-truncated-width@3.0.3: {}
 
@@ -7086,12 +7129,12 @@ snapshots:
 
   image-meta@0.2.2: {}
 
-  impound@1.1.6(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
+  impound@1.1.6(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       es-module-lexer: 2.3.1
       pathe: 2.0.3
-      unplugin: 3.3.0(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      unplugin: 3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
       unplugin-utils: 0.3.2
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -7295,23 +7338,6 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  magic-regexp@0.11.0(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
-    dependencies:
-      magic-string: 0.30.21
-      regexp-tree: 0.1.27
-      type-level-regexp: 0.1.17
-      unplugin: 3.3.0(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
-    transitivePeerDependencies:
-      - '@farmfe/core'
-      - '@rspack/core'
-      - bun-types-no-globals
-      - esbuild
-      - rolldown
-      - rollup
-      - unloader
-      - vite
-      - webpack
-
   magic-string-ast@1.0.3:
     dependencies:
       magic-string: 0.30.21
@@ -7325,6 +7351,12 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.5
 
   magicast@0.5.3:
+    dependencies:
+      '@babel/parser': 7.29.7
+      '@babel/types': 7.29.7
+      source-map-js: 1.2.1
+
+  magicast@0.5.4:
     dependencies:
       '@babel/parser': 7.29.7
       '@babel/types': 7.29.7
@@ -7394,7 +7426,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  nitropack@2.13.4(oxc-parser@0.140.0)(srvx@0.11.22)(supports-color@10.2.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
+  nitropack@2.13.4(oxc-parser@0.143.0)(srvx@0.11.22)(supports-color@10.2.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.2
       '@rollup/plugin-alias': 6.0.0(rollup@4.62.2)
@@ -7459,7 +7491,7 @@ snapshots:
       uncrypto: 0.1.3
       unctx: 2.5.0
       unenv: 2.0.0-rc.24
-      unimport: 6.3.0(esbuild@0.28.1)(oxc-parser@0.140.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      unimport: 6.4.0(esbuild@0.28.1)(oxc-parser@0.143.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
       unplugin-utils: 0.3.2
       unstorage: 1.17.5(db0@0.3.4)(ioredis@5.11.1(supports-color@10.2.2))
       untyped: 2.0.0
@@ -7527,6 +7559,8 @@ snapshots:
 
   normalize-path@3.0.0: {}
 
+  nostics@1.2.0: {}
+
   npm-run-path@5.3.0:
     dependencies:
       path-key: 4.0.0
@@ -7540,17 +7574,17 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nuxt@3.21.10(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.28.1)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0):
+  nuxt@3.21.11(@oxc-project/types@0.143.0)(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.27.7)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0):
     dependencies:
-      '@dxup/nuxt': 0.5.3(esbuild@0.28.1)(magicast@0.5.3)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
-      '@nuxt/cli': 3.37.0(@nuxt/schema@3.21.10)(cac@6.7.14)(magicast@0.5.3)(supports-color@10.2.2)
-      '@nuxt/devtools': 3.4.0(db0@0.3.4)(ioredis@5.11.1(supports-color@10.2.2))(supports-color@10.2.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue@3.5.40(typescript@6.0.3))
-      '@nuxt/kit': 3.21.10(magicast@0.5.3)
-      '@nuxt/nitro-server': 3.21.10(db0@0.3.4)(esbuild@0.28.1)(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(nuxt@3.21.10(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.28.1)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0))(oxc-parser@0.140.0)(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
-      '@nuxt/schema': 3.21.10
-      '@nuxt/telemetry': 2.8.0(@nuxt/kit@3.21.10(magicast@0.5.3))
-      '@nuxt/vite-builder': 3.21.10(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(magicast@0.5.3)(nuxt@3.21.10(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.28.1)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0))(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vue-tsc@3.3.9(typescript@6.0.3))(vue@3.5.40(typescript@6.0.3))(yaml@2.9.0)
-      '@unhead/vue': 2.1.16(vue@3.5.40(typescript@6.0.3))
+      '@dxup/nuxt': 0.5.6(esbuild@0.27.7)(magicast@0.5.3)(oxc-parser@0.143.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      '@nuxt/cli': 3.37.0(@nuxt/schema@3.21.11)(cac@6.7.14)(magicast@0.5.3)(supports-color@10.2.2)
+      '@nuxt/devtools': 3.4.1(db0@0.3.4)(ioredis@5.11.1(supports-color@10.2.2))(magic-string@0.30.21)(oxc-parser@0.143.0)(supports-color@10.2.2)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue@3.5.40(typescript@6.0.3))
+      '@nuxt/kit': 3.21.11(magicast@0.5.3)
+      '@nuxt/nitro-server': 3.21.11(db0@0.3.4)(esbuild@0.27.7)(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(nuxt@3.21.11(@oxc-project/types@0.143.0)(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.27.7)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0))(oxc-parser@0.143.0)(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      '@nuxt/schema': 3.21.11
+      '@nuxt/telemetry': 2.8.0(@nuxt/kit@3.21.11(magicast@0.5.3))
+      '@nuxt/vite-builder': 3.21.11(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(magicast@0.5.3)(nuxt@3.21.11(@oxc-project/types@0.143.0)(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.40)(cac@6.7.14)(db0@0.3.4)(esbuild@0.27.7)(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))(ioredis@5.11.1(supports-color@10.2.2))(magicast@0.5.3)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(srvx@0.11.22)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue-tsc@3.3.9(typescript@6.0.3))(yaml@2.9.0))(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.62.2))(rollup@4.62.2)(supports-color@10.2.2)(terser@5.49.0)(typescript@6.0.3)(vue-tsc@3.3.9(typescript@6.0.3))(vue@3.5.40(typescript@6.0.3))(yaml@2.9.0)
+      '@unhead/vue': 2.1.17(vue@3.5.40(typescript@6.0.3))
       '@vue/shared': 3.5.40
       c12: 3.3.4(magicast@0.5.3)
       chokidar: 5.0.0
@@ -7560,27 +7594,27 @@ snapshots:
       defu: 6.1.7
       destr: 2.0.5
       devalue: 5.9.0
-      errx: 0.1.0
+      errx: 0.1.2
       escape-string-regexp: 5.0.0
-      exsolve: 1.1.0
+      exsolve: 1.1.1
       h3: 1.15.11
       hookable: 5.5.3
       ignore: 7.0.6
-      impound: 1.1.6(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      impound: 1.1.6(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
       jiti: 2.7.0
       klona: 2.0.6
       knitwork: 1.3.0
       magic-string: 0.30.21
       mlly: 1.8.2
       nanotar: 0.3.0
-      nypm: 0.6.8
+      nypm: 0.6.9
       ofetch: 1.5.1
       ohash: 2.0.11
       on-change: 6.0.2
-      oxc-minify: 0.141.0
-      oxc-parser: 0.140.0
-      oxc-transform: 0.141.0
-      oxc-walker: 1.0.0(esbuild@0.28.1)(oxc-parser@0.140.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      oxc-minify: 0.143.0
+      oxc-parser: 0.143.0
+      oxc-transform: 0.143.0
+      oxc-walker: 1.1.1(@oxc-project/types@0.143.0)(oxc-parser@0.143.0)
       pathe: 2.0.3
       perfect-debounce: 2.1.0
       pkg-types: 2.3.1
@@ -7593,8 +7627,8 @@ snapshots:
       ultrahtml: 1.7.0
       uncrypto: 0.1.3
       unctx: 2.5.0
-      unimport: 6.4.0(esbuild@0.28.1)(oxc-parser@0.140.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
-      unplugin: 3.3.0(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      unimport: 6.4.0(esbuild@0.27.7)(oxc-parser@0.143.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      unplugin: 3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
       unplugin-vue-router: 0.19.2(@vue/compiler-sfc@3.5.40)(vue-router@4.6.4(vue@3.5.40(typescript@6.0.3)))(vue@3.5.40(typescript@6.0.3))
       untyped: 2.0.0
       vue: 3.5.40(typescript@6.0.3)
@@ -7615,6 +7649,7 @@ snapshots:
       - '@farmfe/core'
       - '@libsql/client'
       - '@netlify/blobs'
+      - '@oxc-project/types'
       - '@planetscale/database'
       - '@rspack/core'
       - '@upstash/redis'
@@ -7675,6 +7710,12 @@ snapshots:
       pathe: 2.0.3
       tinyexec: 1.2.4
 
+  nypm@0.6.9:
+    dependencies:
+      citty: 0.2.2
+      pathe: 2.0.3
+      tinyexec: 1.2.4
+
   object-deep-merge@2.0.1: {}
 
   obug@2.1.4: {}
@@ -7717,91 +7758,78 @@ snapshots:
       type-check: 0.4.0
       word-wrap: 1.2.5
 
-  oxc-minify@0.141.0:
+  oxc-minify@0.143.0:
     optionalDependencies:
-      '@oxc-minify/binding-android-arm-eabi': 0.141.0
-      '@oxc-minify/binding-android-arm64': 0.141.0
-      '@oxc-minify/binding-darwin-arm64': 0.141.0
-      '@oxc-minify/binding-darwin-x64': 0.141.0
-      '@oxc-minify/binding-freebsd-x64': 0.141.0
-      '@oxc-minify/binding-linux-arm-gnueabihf': 0.141.0
-      '@oxc-minify/binding-linux-arm-musleabihf': 0.141.0
-      '@oxc-minify/binding-linux-arm64-gnu': 0.141.0
-      '@oxc-minify/binding-linux-arm64-musl': 0.141.0
-      '@oxc-minify/binding-linux-ppc64-gnu': 0.141.0
-      '@oxc-minify/binding-linux-riscv64-gnu': 0.141.0
-      '@oxc-minify/binding-linux-riscv64-musl': 0.141.0
-      '@oxc-minify/binding-linux-s390x-gnu': 0.141.0
-      '@oxc-minify/binding-linux-x64-gnu': 0.141.0
-      '@oxc-minify/binding-linux-x64-musl': 0.141.0
-      '@oxc-minify/binding-openharmony-arm64': 0.141.0
-      '@oxc-minify/binding-wasm32-wasi': 0.141.0
-      '@oxc-minify/binding-win32-arm64-msvc': 0.141.0
-      '@oxc-minify/binding-win32-ia32-msvc': 0.141.0
-      '@oxc-minify/binding-win32-x64-msvc': 0.141.0
+      '@oxc-minify/binding-android-arm-eabi': 0.143.0
+      '@oxc-minify/binding-android-arm64': 0.143.0
+      '@oxc-minify/binding-darwin-arm64': 0.143.0
+      '@oxc-minify/binding-darwin-x64': 0.143.0
+      '@oxc-minify/binding-freebsd-x64': 0.143.0
+      '@oxc-minify/binding-linux-arm-gnueabihf': 0.143.0
+      '@oxc-minify/binding-linux-arm-musleabihf': 0.143.0
+      '@oxc-minify/binding-linux-arm64-gnu': 0.143.0
+      '@oxc-minify/binding-linux-arm64-musl': 0.143.0
+      '@oxc-minify/binding-linux-ppc64-gnu': 0.143.0
+      '@oxc-minify/binding-linux-riscv64-gnu': 0.143.0
+      '@oxc-minify/binding-linux-riscv64-musl': 0.143.0
+      '@oxc-minify/binding-linux-s390x-gnu': 0.143.0
+      '@oxc-minify/binding-linux-x64-gnu': 0.143.0
+      '@oxc-minify/binding-linux-x64-musl': 0.143.0
+      '@oxc-minify/binding-openharmony-arm64': 0.143.0
+      '@oxc-minify/binding-win32-arm64-msvc': 0.143.0
+      '@oxc-minify/binding-win32-ia32-msvc': 0.143.0
+      '@oxc-minify/binding-win32-x64-msvc': 0.143.0
 
-  oxc-parser@0.140.0:
+  oxc-parser@0.143.0:
     dependencies:
-      '@oxc-project/types': 0.140.0
+      '@oxc-project/types': 0.143.0
     optionalDependencies:
-      '@oxc-parser/binding-android-arm-eabi': 0.140.0
-      '@oxc-parser/binding-android-arm64': 0.140.0
-      '@oxc-parser/binding-darwin-arm64': 0.140.0
-      '@oxc-parser/binding-darwin-x64': 0.140.0
-      '@oxc-parser/binding-freebsd-x64': 0.140.0
-      '@oxc-parser/binding-linux-arm-gnueabihf': 0.140.0
-      '@oxc-parser/binding-linux-arm-musleabihf': 0.140.0
-      '@oxc-parser/binding-linux-arm64-gnu': 0.140.0
-      '@oxc-parser/binding-linux-arm64-musl': 0.140.0
-      '@oxc-parser/binding-linux-ppc64-gnu': 0.140.0
-      '@oxc-parser/binding-linux-riscv64-gnu': 0.140.0
-      '@oxc-parser/binding-linux-riscv64-musl': 0.140.0
-      '@oxc-parser/binding-linux-s390x-gnu': 0.140.0
-      '@oxc-parser/binding-linux-x64-gnu': 0.140.0
-      '@oxc-parser/binding-linux-x64-musl': 0.140.0
-      '@oxc-parser/binding-openharmony-arm64': 0.140.0
-      '@oxc-parser/binding-wasm32-wasi': 0.140.0
-      '@oxc-parser/binding-win32-arm64-msvc': 0.140.0
-      '@oxc-parser/binding-win32-ia32-msvc': 0.140.0
-      '@oxc-parser/binding-win32-x64-msvc': 0.140.0
+      '@oxc-parser/binding-android-arm-eabi': 0.143.0
+      '@oxc-parser/binding-android-arm64': 0.143.0
+      '@oxc-parser/binding-darwin-arm64': 0.143.0
+      '@oxc-parser/binding-darwin-x64': 0.143.0
+      '@oxc-parser/binding-freebsd-x64': 0.143.0
+      '@oxc-parser/binding-linux-arm-gnueabihf': 0.143.0
+      '@oxc-parser/binding-linux-arm-musleabihf': 0.143.0
+      '@oxc-parser/binding-linux-arm64-gnu': 0.143.0
+      '@oxc-parser/binding-linux-arm64-musl': 0.143.0
+      '@oxc-parser/binding-linux-ppc64-gnu': 0.143.0
+      '@oxc-parser/binding-linux-riscv64-gnu': 0.143.0
+      '@oxc-parser/binding-linux-riscv64-musl': 0.143.0
+      '@oxc-parser/binding-linux-s390x-gnu': 0.143.0
+      '@oxc-parser/binding-linux-x64-gnu': 0.143.0
+      '@oxc-parser/binding-linux-x64-musl': 0.143.0
+      '@oxc-parser/binding-openharmony-arm64': 0.143.0
+      '@oxc-parser/binding-win32-arm64-msvc': 0.143.0
+      '@oxc-parser/binding-win32-ia32-msvc': 0.143.0
+      '@oxc-parser/binding-win32-x64-msvc': 0.143.0
 
-  oxc-transform@0.141.0:
+  oxc-transform@0.143.0:
     optionalDependencies:
-      '@oxc-transform/binding-android-arm-eabi': 0.141.0
-      '@oxc-transform/binding-android-arm64': 0.141.0
-      '@oxc-transform/binding-darwin-arm64': 0.141.0
-      '@oxc-transform/binding-darwin-x64': 0.141.0
-      '@oxc-transform/binding-freebsd-x64': 0.141.0
-      '@oxc-transform/binding-linux-arm-gnueabihf': 0.141.0
-      '@oxc-transform/binding-linux-arm-musleabihf': 0.141.0
-      '@oxc-transform/binding-linux-arm64-gnu': 0.141.0
-      '@oxc-transform/binding-linux-arm64-musl': 0.141.0
-      '@oxc-transform/binding-linux-ppc64-gnu': 0.141.0
-      '@oxc-transform/binding-linux-riscv64-gnu': 0.141.0
-      '@oxc-transform/binding-linux-riscv64-musl': 0.141.0
-      '@oxc-transform/binding-linux-s390x-gnu': 0.141.0
-      '@oxc-transform/binding-linux-x64-gnu': 0.141.0
-      '@oxc-transform/binding-linux-x64-musl': 0.141.0
-      '@oxc-transform/binding-openharmony-arm64': 0.141.0
-      '@oxc-transform/binding-wasm32-wasi': 0.141.0
-      '@oxc-transform/binding-win32-arm64-msvc': 0.141.0
-      '@oxc-transform/binding-win32-ia32-msvc': 0.141.0
-      '@oxc-transform/binding-win32-x64-msvc': 0.141.0
+      '@oxc-transform/binding-android-arm-eabi': 0.143.0
+      '@oxc-transform/binding-android-arm64': 0.143.0
+      '@oxc-transform/binding-darwin-arm64': 0.143.0
+      '@oxc-transform/binding-darwin-x64': 0.143.0
+      '@oxc-transform/binding-freebsd-x64': 0.143.0
+      '@oxc-transform/binding-linux-arm-gnueabihf': 0.143.0
+      '@oxc-transform/binding-linux-arm-musleabihf': 0.143.0
+      '@oxc-transform/binding-linux-arm64-gnu': 0.143.0
+      '@oxc-transform/binding-linux-arm64-musl': 0.143.0
+      '@oxc-transform/binding-linux-ppc64-gnu': 0.143.0
+      '@oxc-transform/binding-linux-riscv64-gnu': 0.143.0
+      '@oxc-transform/binding-linux-riscv64-musl': 0.143.0
+      '@oxc-transform/binding-linux-s390x-gnu': 0.143.0
+      '@oxc-transform/binding-linux-x64-gnu': 0.143.0
+      '@oxc-transform/binding-linux-x64-musl': 0.143.0
+      '@oxc-transform/binding-openharmony-arm64': 0.143.0
+      '@oxc-transform/binding-win32-arm64-msvc': 0.143.0
+      '@oxc-transform/binding-win32-ia32-msvc': 0.143.0
+      '@oxc-transform/binding-win32-x64-msvc': 0.143.0
 
-  oxc-walker@1.0.0(esbuild@0.28.1)(oxc-parser@0.140.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
-    dependencies:
-      magic-regexp: 0.11.0(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+  oxc-walker@1.1.1(@oxc-project/types@0.143.0)(oxc-parser@0.143.0):
     optionalDependencies:
-      oxc-parser: 0.140.0
-    transitivePeerDependencies:
-      - '@farmfe/core'
-      - '@rspack/core'
-      - bun-types-no-globals
-      - esbuild
-      - rollup
-      - unloader
-      - vite
-      - webpack
+      '@oxc-project/types': 0.143.0
+      oxc-parser: 0.143.0
 
   p-limit@3.1.0:
     dependencies:
@@ -8035,12 +8063,6 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  postcss@8.5.19:
-    dependencies:
-      nanoid: 3.3.16
-      picocolors: 1.1.1
-      source-map-js: 1.2.1
-
   postcss@8.5.25:
     dependencies:
       nanoid: 3.3.16
@@ -8224,7 +8246,7 @@ snapshots:
 
   serialize-javascript@7.0.7: {}
 
-  seroval@1.6.0: {}
+  seroval@1.6.2: {}
 
   serve-placeholder@2.0.2:
     dependencies:
@@ -8415,7 +8437,7 @@ snapshots:
   terser@5.49.0:
     dependencies:
       '@jridgewell/source-map': 0.3.11
-      acorn: 8.17.0
+      acorn: 8.18.0
       commander: 2.20.3
       source-map-support: 0.5.21
 
@@ -8466,8 +8488,6 @@ snapshots:
     dependencies:
       tagged-tag: 1.0.0
 
-  type-level-regexp@0.1.17: {}
-
   typescript@6.0.3: {}
 
   ufo@1.6.4: {}
@@ -8478,16 +8498,28 @@ snapshots:
 
   unctx@2.5.0:
     dependencies:
-      acorn: 8.17.0
+      acorn: 8.18.0
       estree-walker: 3.0.3
       magic-string: 0.30.21
       unplugin: 2.3.11
+
+  unctx@3.0.0(magic-string@0.30.21)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))):
+    optionalDependencies:
+      magic-string: 0.30.21
+      oxc-parser: 0.143.0
+      unplugin: 3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+
+  unctx@3.0.0(magic-string@1.1.0)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))):
+    optionalDependencies:
+      magic-string: 1.1.0
+      oxc-parser: 0.143.0
+      unplugin: 3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
 
   unenv@2.0.0-rc.24:
     dependencies:
       pathe: 2.0.3
 
-  unhead@2.1.16:
+  unhead@2.1.17:
     dependencies:
       hookable: 6.1.1
 
@@ -8512,24 +8544,24 @@ snapshots:
       unplugin: 2.3.11
       unplugin-utils: 0.3.2
 
-  unimport@6.3.0(esbuild@0.28.1)(oxc-parser@0.140.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
+  unimport@6.4.0(esbuild@0.27.7)(oxc-parser@0.143.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
     dependencies:
-      acorn: 8.17.0
+      acorn: 8.18.0
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
       local-pkg: 1.2.1
-      magic-string: 0.30.21
+      magic-string: 1.1.0
       mlly: 1.8.2
       pathe: 2.0.3
       picomatch: 4.0.5
       pkg-types: 2.3.1
       scule: 1.3.0
-      strip-literal: 3.1.0
+      strip-literal: 4.0.0
       tinyglobby: 0.2.17
-      unplugin: 3.3.0(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
+      unplugin: 3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
       unplugin-utils: 0.3.2
     optionalDependencies:
-      oxc-parser: 0.140.0
+      oxc-parser: 0.143.0
     transitivePeerDependencies:
       - '@farmfe/core'
       - '@rspack/core'
@@ -8540,7 +8572,7 @@ snapshots:
       - vite
       - webpack
 
-  unimport@6.4.0(esbuild@0.28.1)(oxc-parser@0.140.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
+  unimport@6.4.0(esbuild@0.28.1)(oxc-parser@0.143.0)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
     dependencies:
       acorn: 8.18.0
       escape-string-regexp: 5.0.0
@@ -8557,7 +8589,7 @@ snapshots:
       unplugin: 3.3.0(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
       unplugin-utils: 0.3.2
     optionalDependencies:
-      oxc-parser: 0.140.0
+      oxc-parser: 0.143.0
     transitivePeerDependencies:
       - '@farmfe/core'
       - '@rspack/core'
@@ -8578,7 +8610,7 @@ snapshots:
       '@babel/generator': 7.29.7
       '@vue-macros/common': 3.1.3(vue@3.5.40(typescript@6.0.3))
       '@vue/compiler-sfc': 3.5.40
-      '@vue/language-core': 3.3.7
+      '@vue/language-core': 3.3.9
       ast-walker-scope: 0.8.3
       chokidar: 5.0.0
       json5: 2.2.3
@@ -8601,9 +8633,19 @@ snapshots:
   unplugin@2.3.11:
     dependencies:
       '@jridgewell/remapping': 2.3.5
-      acorn: 8.17.0
+      acorn: 8.18.0
       picomatch: 4.0.5
       webpack-virtual-modules: 0.6.2
+
+  unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
+      picomatch: 4.0.5
+      webpack-virtual-modules: 0.6.2
+    optionalDependencies:
+      esbuild: 0.27.7
+      rollup: 4.62.2
+      vite: 7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)
 
   unplugin@3.3.0(esbuild@0.28.1)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
     dependencies:
@@ -8693,6 +8735,8 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
+  verkit@0.3.2: {}
+
   vite-dev-rpc@2.0.0(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
     dependencies:
       birpc: 4.0.0
@@ -8739,7 +8783,7 @@ snapshots:
       typescript: 6.0.3
       vue-tsc: 3.3.9(typescript@6.0.3)
 
-  vite-plugin-inspect@11.4.1(@nuxt/kit@4.4.8(magicast@0.5.3))(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
+  vite-plugin-inspect@11.4.1(@nuxt/kit@4.5.2(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))))(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)):
     dependencies:
       ansis: 4.3.1
       error-stack-parser-es: 1.0.5
@@ -8752,7 +8796,7 @@ snapshots:
       vite: 7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)
       vite-dev-rpc: 2.0.0(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
     optionalDependencies:
-      '@nuxt/kit': 4.4.8(magicast@0.5.3)
+      '@nuxt/kit': 4.5.2(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.143.0)(unplugin@3.3.0(esbuild@0.27.7)(rollup@4.62.2)(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0)))
 
   vite-plugin-vue-tracer@1.4.0(vite@7.3.6(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))(vue@3.5.40(typescript@6.0.3)):
     dependencies:
@@ -8769,7 +8813,7 @@ snapshots:
       esbuild: 0.28.1
       fdir: 6.5.0(picomatch@4.0.5)
       picomatch: 4.0.5
-      postcss: 8.5.19
+      postcss: 8.5.25
       rollup: 4.62.2
       tinyglobby: 0.2.17
     optionalDependencies:
